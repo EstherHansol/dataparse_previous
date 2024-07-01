@@ -5,9 +5,9 @@ public class Main {
         Service service = new Service();
         // JDBC 커넥션 생성
         Connection conn = service.createConn(
-                "jdbc:mysql://localhost:3306/ETParse?serverTimezone=UTC&characterEncoding=UTF-8",
+                "jdbc:mysql://",
                 "root",
-                "gksthf0601");
+                "");
 
         // 현재 강의 테이블 데이터 삽입
         //service.insertCurrentLecturesTable(conn, "/Users/dodosolsol/Downloads/previous_lecture/DataParser-main/2024subData.txt", "2024-1");
