@@ -17,10 +17,10 @@ public class Main {
         for (int year = 2018; year <= 2023; year++) {
             for (int semester = 1; semester <= 2; semester++) {
                 String fileName = String.format("everytime%d_%d.txt", year, semester);
-                service.insertEverytimeTable(conn, "/Users/dodosolsol/Downloads/previous_lecture/DataParser-main/src/everytime2018_1.txt");
+                service.insertEverytimeTable(conn, "/Users/~~/everytime2018_1.txt");//경로 수정
             }
         }
 
-        SubjectTypeExtractor.processJsonFile("/Users/dodosolsol/Downloads/previous_lecture/DataParser-main/input.json");
+        SubjectTypeExtractor.processJsonFile("/Users/~~/input.json");//경로수정
     }
 }
