@@ -5,9 +5,9 @@ public class Main {
         Service service = new Service();
         // JDBC 커넥션 생성
         Connection conn = service.createConn(
-                "jdbc:mysql://localhost:3306/ETParse?serverTimezone=UTC&characterEncoding=UTF-8",
-                "root",
-                "gksthf0601");
+                "jdbc:mysql://",
+                "",
+                "");
 
         if (conn != null) {
             System.out.println("Database connected successfully.");
