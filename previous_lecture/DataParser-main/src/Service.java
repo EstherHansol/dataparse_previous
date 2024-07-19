@@ -5,6 +5,8 @@ import org.json.XML;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -15,67 +17,45 @@ import java.util.List;
 import java.util.Map;
 
 public class Service {
-    // 교양 유형에 대한 매핑 정보를 필드로 정의
     private final Map<String, String> balanceGenEd = new HashMap<>();
     private final Map<String, String> coreGenEd = new HashMap<>();
     private final Map<String, String> basicGenEd = new HashMap<>();
     private final Map<String, String> normalGenEd = new HashMap<>();
+    private static final Map<String, String> subjectTypeMap = new HashMap<>();
+
+    static {
+        subjectTypeMap.put("사고와표현", "thinkingAndExpression");
+        // 필요한 매핑 정보를 여기에 추가
+    }
+
     private Connection conn = null;
 
-
-
-
-
     public void insertEverytimeTable(Connection conn, String fileName) {
-        // Everytime 이전 강의 정보 삽입
         try {
-            // 파일명에서 확장자 제거하여 학년 학기 추출
             String semesterYear = extractSemesterYear(fileName);
-
-            // Txt -> String
             String jsonString = readJsonTxt(fileName);
-
-            // Xml -> JsonObjects
             List<JSONObject> jsonObjects = xmlToJsonObjects("subject", jsonString);
 
-            // JsonObjects -> EverytimeTable
             for (JSONObject jsonObject : jsonObjects) {
                 insertToEverytimeTable(conn, jsonObject, semesterYear);
             }
 
-            System.out.println("<" + fileName + "> inserted successfully.");
+            System.out.println(fileName + " inserted successfully.");
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
 
-    private String readJsonTxt(String fileName) {
-        // json 형식 Txt -> String 변환
-        StringBuilder jsonContent = new StringBuilder();
-        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                jsonContent.append(line);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return jsonContent.toString();
-    }
-
     private List<JSONObject> xmlToJsonObjects(String key, String xml) {
-        // XML -> json 변환
         JSONArray jsonArray = XML.toJSONObject(xml).getJSONArray(key);
         List<JSONObject> jsonObjects = new ArrayList<>();
         for (int i = 0; i < jsonArray.length(); i++) {
             jsonObjects.add(jsonArray.getJSONObject(i));
         }
-
         return jsonObjects;
     }
 
     public Connection createConn(String url, String user, String password) {
-        // 커넥션 생성
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("====== Connecting To Database ======");
@@ -98,7 +78,6 @@ public class Service {
             String subjectCode = jsonObject.optString("SBJ_CD", null);
             String subjectType;
 
-            // 각 교양 유형에 따라 맵에서 subject_type을 가져옴
             if (balanceGenEd.containsKey(subjectCode)) {
                 subjectType = balanceGenEd.get(subjectCode);
             } else if (coreGenEd.containsKey(subjectCode)) {
@@ -123,9 +102,91 @@ public class Service {
 
     private String extractSemesterYear(String fileName) {
         String baseName = fileName.substring(0, fileName.lastIndexOf('.'));
+        return baseName.replaceAll("[^0-9_]", "");
+    }
 
-        String semesterYear = baseName.replaceAll("[^0-9_]", "");
+    public void insertCurrentLecturesTable(Connection conn, String fileName, String semester) {
+        String jsonString = readJsonTxt("/Users/dodosolsol/Downloads/previous_lecture/DataParser-main/2024subData.txt");
 
-        return semesterYear;
+        if (jsonString != null && !jsonString.isEmpty()) {
+            System.out.println("File read successfully: " + jsonString);
+        } else {
+            System.out.println("Failed to read the file or file is empty.");
+            return;
+        }
+
+        JSONArray jsonArray = new JSONArray(jsonString);
+
+        if (jsonArray != null && jsonArray.length() > 0) {
+            System.out.println("JSON array parsed successfully. Number of items: " + jsonArray.length());
+        } else {
+            System.out.println("Failed to parse JSON array or JSON array is empty.");
+            return;
+        }
+
+        for (int i = 0; i < jsonArray.length(); i++) {
+            JSONObject jsonObject = jsonArray.getJSONObject(i);
+            try {
+                insertToCurrentLecturesTable(conn, jsonObject, semester);
+                System.out.println("Inserted item: " + jsonObject.toString());
+            } catch (SQLException e) {
+                System.out.println("Failed to insert item: " + jsonObject.toString());
+                e.printStackTrace();
+            }
+        }
+
+        System.out.println(fileName + " inserted successfully.");
+    }
+
+    private void insertToCurrentLecturesTable(Connection connection, JSONObject jsonObject, String semester) throws SQLException {
+        String query = "INSERT INTO current_lecture (SBJ_NO, SBJ_NM, LECT_TIME_ROOM, CMP_DIV_RCD, THEO_TIME, " +
+                "ATTC_FILE_NO, DIVCLS, TLSN_RMK, CDT, SES_RCD, CMP_DIV_NM, CYBER_YN, CYBER_B_YN, SCH_YEAR, " +
+                "PRAC_TIME, CYBER_S_YN, FILE_PBY_YN, KIND_RCD, SBJ_DIVCLS, STAFF_NM, DEPT_CD, RMK, " +
+                "CYBER_E_YN, REP_STAFF_NO, EST_DEPT_INFO, SMT_RCD, CRS_SHYR, KIND_NM, BEF_CTNT_02, BEF_CTNT_01, semester_year) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+            preparedStatement.setString(1, jsonObject.optString("SBJ_NO", null));
+            preparedStatement.setString(2, jsonObject.optString("SBJ_NM", null));
+            preparedStatement.setString(3, jsonObject.optString("LECT_TIME_ROOM", null));
+            preparedStatement.setString(4, jsonObject.optString("CMP_DIV_RCD", null));
+            preparedStatement.setInt(5, jsonObject.optInt("THEO_TIME", 0));
+            preparedStatement.setString(6, jsonObject.optString("ATTC_FILE_NO", null));
+            preparedStatement.setInt(7, jsonObject.optInt("DIVCLS", 0));
+            preparedStatement.setString(8, jsonObject.optString("TLSN_RMK", null));
+            preparedStatement.setInt(9, jsonObject.optInt("CDT", 0));
+            preparedStatement.setString(10, jsonObject.optString("SES_RCD", null));
+            preparedStatement.setString(11, jsonObject.optString("CMP_DIV_NM", null));
+            preparedStatement.setString(12, jsonObject.optString("CYBER_YN", null));
+            preparedStatement.setString(13, jsonObject.optString("CYBER_B_YN", null));
+            preparedStatement.setInt(14, jsonObject.optInt("SCH_YEAR", 0));
+            preparedStatement.setInt(15, jsonObject.optInt("PRAC_TIME", 0));
+            preparedStatement.setString(16, jsonObject.optString("CYBER_S_YN", null));
+            preparedStatement.setString(17, jsonObject.optString("FILE_PBY_YN", null));
+            preparedStatement.setString(18, jsonObject.optString("KIND_RCD", null));
+            preparedStatement.setString(19, jsonObject.optString("SBJ_DIVCLS", null));
+            preparedStatement.setString(20, jsonObject.optString("STAFF_NM", null));
+            preparedStatement.setString(21, jsonObject.optString("DEPT_CD", null));
+            preparedStatement.setString(22, jsonObject.optString("RMK", null));
+            preparedStatement.setString(23, jsonObject.optString("CYBER_E_YN", null));
+            preparedStatement.setString(24, jsonObject.optString("REP_STAFF_NO", null));
+            preparedStatement.setString(25, jsonObject.optString("EST_DEPT_INFO", null));
+            preparedStatement.setString(26, jsonObject.optString("SMT_RCD", null));
+            preparedStatement.setInt(27, jsonObject.optInt("CRS_SHYR", 0));
+            preparedStatement.setString(28, jsonObject.optString("KIND_NM", null));
+            preparedStatement.setString(29, jsonObject.optString("BEF_CTNT_02", null));
+            preparedStatement.setString(30, jsonObject.optString("BEF_CTNT_01", null));
+            preparedStatement.setString(31, semester);
+
+            preparedStatement.executeUpdate();
+        }
+    }
+
+    public static String readJsonTxt(String filePath) {
+        try {
+            return new String(Files.readAllBytes(Paths.get(filePath)));
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }

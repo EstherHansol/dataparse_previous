@@ -641,39 +641,39 @@
   <subject id="3343281" code="TT0210-2" name="학교폭력예방의이론과실제" professor="유혜승" type="1교직" grade="" time="월7,8(A102)" place="" credit="2" popular="43" target="" notice="국어교육과" lectureId="1774446" lectureRate="4.5" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="A102"/>
   </subject>
-  <subject id="3343282" code="LR1032-1" name="사고와표현" professor="전영옥" type="교필" grade="" time="월3,4,수3(R202)" place="" credit="3" popular="48" target="" notice="국어교육과 전용분반" lectureId="120353" lectureRate="4.31" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343282" code="LR1032-1" name="사고와표현" professor="전영옥" type="교필" grade="" time="월3,4,수3(R202)" place="" credit="3" popular="48" target="" notice="사고와표현 국어교육과 전용분반" lectureId="120353" lectureRate="4.31" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="R202"/>
     <timeplace day="2" start="132" end="144" place="R202"/>
   </subject>
-  <subject id="3343283" code="LR1032-2" name="사고와표현" professor="송인성" type="교필" grade="" time="월3,4,수3(N501)" place="" credit="3" popular="48" target="" notice="영어교육과 전용분반" lectureId="1034979" lectureRate="4.03" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343283" code="LR1032-2" name="사고와표현" professor="송인성" type="교필" grade="" time="월3,4,수3(N501)" place="" credit="3" popular="48" target="" notice="사고와표현 영어교육과 전용분반" lectureId="1034979" lectureRate="4.03" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N501"/>
     <timeplace day="2" start="132" end="144" place="N501"/>
   </subject>
-<subject id="3343284" code="LR1032-3" name="사고와표현" professor="방영심" type="교필" grade="" time="월3,4,수3(N407)" place="" credit="3" popular="25" target="" notice="교육학과 전용분반" lectureId="76504" lectureRate="3.88" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+<subject id="3343284" code="LR1032-3" name="사고와표현" professor="방영심" type="교필" grade="" time="월3,4,수3(N407)" place="" credit="3" popular="25" target="" notice="사고와표현 교육학과 전용분반" lectureId="76504" lectureRate="3.88" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N407"/>
     <timeplace day="2" start="132" end="144" place="N407"/>
   </subject>
-  <subject id="3343285" code="LR1032-4" name="사고와표현" professor="박혜숙" type="교필" grade="" time="월3,4,수3(R101)" place="" credit="3" popular="33" target="" notice="전기공학과 전용분반" lectureId="481014" lectureRate="3.7" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343285" code="LR1032-4" name="사고와표현" professor="박혜숙" type="교필" grade="" time="월3,4,수3(R101)" place="" credit="3" popular="33" target="" notice="사고와표현 전기공학과 전용분반" lectureId="481014" lectureRate="3.7" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="R101"/>
     <timeplace day="2" start="132" end="144" place="R101"/>
   </subject>
-  <subject id="3343286" code="LR1032-5" name="사고와표현" professor="김현주" type="교필" grade="" time="월5,6,수4(R202)" place="" credit="3" popular="35" target="" notice="융합전자공학과 전용분반" lectureId="1033579" lectureRate="4.38" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343286" code="LR1032-5" name="사고와표현" professor="김현주" type="교필" grade="" time="월5,6,수4(R202)" place="" credit="3" popular="35" target="" notice="사고와표현 융합전자공학과 전용분반" lectureId="1033579" lectureRate="4.38" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="R202"/>
     <timeplace day="2" start="144" end="156" place="R202"/>
   </subject>
-  <subject id="3343287" code="LR1032-6" name="사고와표현" professor="박건숙" type="교필" grade="" time="월5,6,수4(R101)" place="" credit="3" popular="31" target="" notice="컴퓨터과학과 전용분반" lectureId="118705" lectureRate="4.32" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343287" code="LR1032-6" name="사고와표현" professor="박건숙" type="교필" grade="" time="월5,6,수4(R101)" place="" credit="3" popular="31" target="" notice="사고와표현 컴퓨터과학과 전용분반" lectureId="118705" lectureRate="4.32" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="R101"/>
     <timeplace day="2" start="144" end="156" place="R101"/>
   </subject>
-  <subject id="3343288" code="LR1032-10" name="사고와표현" professor="윤태식" type="교필" grade="" time="월7,8,수5(R101)" place="" credit="3" popular="44" target="" notice="화학에너지공학과 전용분반" lectureId="481032" lectureRate="4.53" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343288" code="LR1032-10" name="사고와표현" professor="윤태식" type="교필" grade="" time="월7,8,수5(R101)" place="" credit="3" popular="44" target="" notice="사고와표현 화학에너지공학과 전용분반" lectureId="481032" lectureRate="4.53" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="R101"/>
     <timeplace day="2" start="156" end="168" place="R101"/>
   </subject>
-  <subject id="3343289" code="LR1032-14" name="사고와표현" professor="임혜원" type="교필" grade="" time="수6,금3,4(M305)" place="" credit="3" popular="32" target="" notice="의류학과 전용분반" lectureId="1690750" lectureRate="3.14" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343289" code="LR1032-14" name="사고와표현" professor="임혜원" type="교필" grade="" time="수6,금3,4(M305)" place="" credit="3" popular="32" target="" notice="사고와표현 의류학과 전용분반" lectureId="1690750" lectureRate="3.14" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="M305"/>
     <timeplace day="4" start="132" end="156" place="M305"/>
   </subject>
-  <subject id="3343290" code="LR1032-17" name="사고와표현" professor="임혜원" type="교필" grade="" time="수7,금5,6(M305)" place="" credit="3" popular="18" target="" notice="조형예술학과 전용분반" lectureId="1690750" lectureRate="2.85" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="3343290" code="LR1032-17" name="사고와표현" professor="임혜원" type="교필" grade="" time="수7,금5,6(M305)" place="" credit="3" popular="18" target="" notice="사고와표현 조형예술학과 전용분반" lectureId="1690750" lectureRate="2.85" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="M305"/>
     <timeplace day="4" start="156" end="180" place="M305"/>
   </subject>

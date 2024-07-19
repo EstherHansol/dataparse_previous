@@ -1,91 +1,91 @@
-<subject id="5655468" code="HALR1032-1" name="사고와표현" professor="방영심" type="교필" grade="1" time="화5,6(R110) 목7(R110)" place="" credit="3" popular="36" target="" notice="생명공학전공(2022학번 전용 분반)" lectureId="76504" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
+<subject id="5655468" code="HALR1032-1" name="사고와표현" professor="방영심" type="교필" grade="1" time="화5,6(R110) 목7(R110)" place="" credit="3" popular="36" target="" notice="사고와표현 생명공학전공(2022학번 전용 분반)" lectureId="76504" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="156" end="180" place="R110"/>
     <timeplace day="3" start="180" end="192" place="R110"/>
   </subject>
-  <subject id="5655469" code="HALR1032-2" name="사고와표현" professor="송인성" type="교필" grade="1" time="화5,6(R101) 목7(R101)" place="" credit="3" popular="43" target="" notice="영어교육과(2022학번 전용 분반)" lectureId="1034979" lectureRate="4.13" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655469" code="HALR1032-2" name="사고와표현" professor="송인성" type="교필" grade="1" time="화5,6(R101) 목7(R101)" place="" credit="3" popular="43" target="" notice="사고와표현 영어교육과(2022학번 전용 분반)" lectureId="1034979" lectureRate="4.13" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="156" end="180" place="R101"/>
     <timeplace day="3" start="180" end="192" place="R101"/>
   </subject>
-  <subject id="5655470" code="HALR1032-3" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월5,6(G420) 목7(G420)" place="" credit="3" popular="21" target="" notice="애니메이션전공 (2022학번 전용 분반)" lectureId="481013" lectureRate="3.77" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655470" code="HALR1032-3" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월5,6(G420) 목7(G420)" place="" credit="3" popular="21" target="" notice="사고와표현 애니메이션전공 (2022학번 전용 분반)" lectureId="481013" lectureRate="3.77" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="G420"/>
     <timeplace day="3" start="180" end="192" place="G420"/>
   </subject>
-  <subject id="5655471" code="HALR1032-4" name="사고와표현" professor="박건숙" type="교필" grade="1" time="화5,6(R209) 목7(R209)" place="" credit="3" popular="37" target="" notice="화학에너지공학 전공(2022학번전용 분반)" lectureId="118705" lectureRate="4.43" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655471" code="HALR1032-4" name="사고와표현" professor="박건숙" type="교필" grade="1" time="화5,6(R209) 목7(R209)" place="" credit="3" popular="37" target="" notice="사고와표현 화학에너지공학 전공(2022학번전용 분반)" lectureId="118705" lectureRate="4.43" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="156" end="180" place="R209"/>
     <timeplace day="3" start="180" end="192" place="R209"/>
   </subject>
-  <subject id="5655472" code="HALR1032-5" name="사고와표현" professor="방영심" type="교필" grade="1" time="화7,8(R110) 목8(R110)" place="" credit="3" popular="57" target="" notice="컴퓨터과학전공 (2022학번 전용 분반)" lectureId="76504" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655472" code="HALR1032-5" name="사고와표현" professor="방영심" type="교필" grade="1" time="화7,8(R110) 목8(R110)" place="" credit="3" popular="57" target="" notice="사고와표현 컴퓨터과학전공 (2022학번 전용 분반)" lectureId="76504" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="180" end="204" place="R110"/>
     <timeplace day="3" start="192" end="204" place="R110"/>
   </subject>
-  <subject id="5655473" code="HALR1032-6" name="사고와표현" professor="송인성" type="교필" grade="1" time="화7,8(R101) 목8(R101)" place="" credit="3" popular="46" target="" notice="컴퓨터과학전공 (2022학번 전용 분반)" lectureId="1034979" lectureRate="4.15" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655473" code="HALR1032-6" name="사고와표현" professor="송인성" type="교필" grade="1" time="화7,8(R101) 목8(R101)" place="" credit="3" popular="46" target="" notice="사고와표현 컴퓨터과학전공 (2022학번 전용 분반)" lectureId="1034979" lectureRate="4.15" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="180" end="204" place="R101"/>
     <timeplace day="3" start="192" end="204" place="R101"/>
   </subject>
-  <subject id="5655474" code="HALR1032-7" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월7,8(G420) 목8(G420)" place="" credit="3" popular="36" target="" notice="게임전공(2022학번 전용 분반)" lectureId="481013" lectureRate="3.77" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655474" code="HALR1032-7" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월7,8(G420) 목8(G420)" place="" credit="3" popular="36" target="" notice="사고와표현 게임전공(2022학번 전용 분반)" lectureId="481013" lectureRate="3.77" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="G420"/>
     <timeplace day="3" start="192" end="204" place="G420"/>
   </subject>
-  <subject id="5655475" code="HALR1032-8" name="사고와표현" professor="방영심" type="교필" grade="1" time="수4(R110) 금2,3(R107)" place="" credit="3" popular="29" target="" notice="전기공학전공(2022학번 전용 분반)" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655475" code="HALR1032-8" name="사고와표현" professor="방영심" type="교필" grade="1" time="수4(R110) 금2,3(R107)" place="" credit="3" popular="29" target="" notice="사고와표현 전기공학전공(2022학번 전용 분반)" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="144" end="156" place="R110"/>
     <timeplace day="4" start="120" end="144" place="R107"/>
   </subject>
-  <subject id="5655476" code="HALR1032-9" name="사고와표현" professor="송인성" type="교필" grade="1" time="수4(R202) 금2,3(R202)" place="" credit="3" popular="24" target="" notice="지능IOT융합전 공(2022학번전용 분반)" lectureId="1034979" lectureRate="4.15" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655476" code="HALR1032-9" name="사고와표현" professor="송인성" type="교필" grade="1" time="수4(R202) 금2,3(R202)" place="" credit="3" popular="24" target="" notice="사고와표현 지능IOT융합전 공(2022학번전용 분반)" lectureId="1034979" lectureRate="4.15" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="144" end="156" place="R202"/>
     <timeplace day="4" start="120" end="144" place="R202"/>
   </subject>
-  <subject id="5655477" code="HALR1032-10" name="사고와표현" professor="강미정" type="교필" grade="1" time="수4(R211) 금2,3(R211)" place="" credit="3" popular="41" target="" notice="화공신소재전공 (2022학번 전용 분반)" lectureId="2251686" lectureRate="4.8" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655477" code="HALR1032-10" name="사고와표현" professor="강미정" type="교필" grade="1" time="수4(R211) 금2,3(R211)" place="" credit="3" popular="41" target="" notice="사고와표현 화공신소재전공 (2022학번 전용 분반)" lectureId="2251686" lectureRate="4.8" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="144" end="156" place="R211"/>
     <timeplace day="4" start="120" end="144" place="R211"/>
   </subject>
-  <subject id="5655478" code="HALR1032-11" name="사고와표현" professor="방영심" type="교필" grade="1" time="수5(R110) 금5,6(R110)" place="" credit="3" popular="23" target="" notice="교육학과(2022 학번 전용 분반)" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655478" code="HALR1032-11" name="사고와표현" professor="방영심" type="교필" grade="1" time="수5(R110) 금5,6(R110)" place="" credit="3" popular="23" target="" notice="사고와표현 교육학과(2022 학번 전용 분반)" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="156" end="168" place="R110"/>
     <timeplace day="4" start="156" end="180" place="R110"/>
   </subject>
-  <subject id="5655479" code="HALR1032-12" name="사고와표현" professor="송인성" type="교필" grade="1" time="수5(R101) 금5,6(R101)" place="" credit="3" popular="26" target="" notice="식품영양학전공 (2022학번 전용 분반)" lectureId="1034979" lectureRate="4.1" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655479" code="HALR1032-12" name="사고와표현" professor="송인성" type="교필" grade="1" time="수5(R101) 금5,6(R101)" place="" credit="3" popular="26" target="" notice="사고와표현 식품영양학전공 (2022학번 전용 분반)" lectureId="1034979" lectureRate="4.1" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="156" end="168" place="R101"/>
     <timeplace day="4" start="156" end="180" place="R101"/>
   </subject>
-  <subject id="5655480" code="HALR1032-13" name="사고와표현" professor="이지영" type="교필" grade="1" time="수5(R209) 금5,6(R209)" place="" credit="3" popular="22" target="" notice="의류학전공(2022학번 전용 분반)" lectureId="95738" lectureRate="5" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655480" code="HALR1032-13" name="사고와표현" professor="이지영" type="교필" grade="1" time="수5(R209) 금5,6(R209)" place="" credit="3" popular="22" target="" notice="사고와표현 의류학전공(2022학번 전용 분반)" lectureId="95738" lectureRate="5" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="156" end="168" place="R209"/>
     <timeplace day="4" start="156" end="180" place="R209"/>
   </subject>
-  <subject id="5655481" code="HALR1032-14" name="사고와표현" professor="전영주" type="교필" grade="1" time="수5(R208) 금5,6(R208)" place="" credit="3" popular="20" target="" notice="스포츠건강관리 전공(2022학번전용 분반)" lectureId="1033581" lectureRate="3.33" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655481" code="HALR1032-14" name="사고와표현" professor="전영주" type="교필" grade="1" time="수5(R208) 금5,6(R208)" place="" credit="3" popular="20" target="" notice="사고와표현 스포츠건강관리 전공(2022학번전용 분반)" lectureId="1033581" lectureRate="3.33" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="156" end="168" place="R208"/>
     <timeplace day="4" start="156" end="180" place="R208"/>
   </subject>
-  <subject id="5655482" code="HALR1032-15" name="사고와표현" professor="전영옥" type="교필" grade="1" time="수5(A202) 금5,6(A202)" place="" credit="3" popular="38" target="" notice="국어교육과(2022학번 전용 분반)" lectureId="120353" lectureRate="4.32" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655482" code="HALR1032-15" name="사고와표현" professor="전영옥" type="교필" grade="1" time="수5(A202) 금5,6(A202)" place="" credit="3" popular="38" target="" notice="사고와표현 국어교육과(2022학번 전용 분반)" lectureId="120353" lectureRate="4.32" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="156" end="168" place="A202"/>
     <timeplace day="4" start="156" end="180" place="A202"/>
   </subject>
-  <subject id="5655483" code="HALR1032-16" name="사고와표현" professor="방영심" type="교필" grade="1" time="수6(R110) 금7,8(R110)" place="" credit="3" popular="21" target="" notice="조형예술전공(2022학번 전용 분반)" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655483" code="HALR1032-16" name="사고와표현" professor="방영심" type="교필" grade="1" time="수6(R110) 금7,8(R110)" place="" credit="3" popular="21" target="" notice="사고와표현 조형예술전공(2022학번 전용 분반)" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="R110"/>
     <timeplace day="4" start="180" end="204" place="R110"/>
   </subject>
-  <subject id="5655484" code="HALR1032-17" name="사고와표현" professor="송인성" type="교필" grade="1" time="수6(R101) 금7,8(R101)" place="" credit="3" popular="27" target="" notice="생활예술전공(2022학번 전용 분반)" lectureId="1034979" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655484" code="HALR1032-17" name="사고와표현" professor="송인성" type="교필" grade="1" time="수6(R101) 금7,8(R101)" place="" credit="3" popular="27" target="" notice="사고와표현 생활예술전공(2022학번 전용 분반)" lectureId="1034979" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="R101"/>
     <timeplace day="4" start="180" end="204" place="R101"/>
   </subject>
-  <subject id="5655485" code="HALR1032-18" name="사고와표현" professor="" type="교필" grade="1" time="수6(R208) 금7,8(R208)" place="" credit="3" popular="33" target="" notice="무용예술전공(2022학번 전용 분반)" lectureId="108751" lectureRate="3.63" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655485" code="HALR1032-18" name="사고와표현" professor="" type="교필" grade="1" time="수6(R208) 금7,8(R208)" place="" credit="3" popular="33" target="" notice="사고와표현 무용예술전공(2022학번 전용 분반)" lectureId="108751" lectureRate="3.63" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="R208"/>
     <timeplace day="4" start="180" end="204" place="R208"/>
   </subject>
-  <subject id="5655486" code="HALR1032-19" name="사고와표현" professor="신윤경" type="교필" grade="1" time="수6(R209) 금7,8(R209)" place="" credit="3" popular="28" target="" notice="음악학부(2022학번 전용 분반)" lectureId="2378694" lectureRate="4.5" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655486" code="HALR1032-19" name="사고와표현" professor="신윤경" type="교필" grade="1" time="수6(R209) 금7,8(R209)" place="" credit="3" popular="28" target="" notice="사고와표현 음악학부(2022학번 전용 분반)" lectureId="2378694" lectureRate="4.5" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="R209"/>
     <timeplace day="4" start="180" end="204" place="R209"/>
   </subject>
-  <subject id="5655487" code="HALR1032-20" name="사고와표현" professor="박선애" type="교필" grade="1" time="수6(A403) 금7,8(A403)" place="" credit="3" popular="26" target="" notice="음악학부(2022학번 전용 분반)" lectureId="2251687" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655487" code="HALR1032-20" name="사고와표현" professor="박선애" type="교필" grade="1" time="수6(A403) 금7,8(A403)" place="" credit="3" popular="26" target="" notice="사고와표현 음악학부(2022학번 전용 분반)" lectureId="2251687" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="A403"/>
     <timeplace day="4" start="180" end="204" place="A403"/>
   </subject>
-  <subject id="5655488" code="HALR1032-21" name="사고와표현" professor="" type="교필" grade="1" time="수10,11,12(R101)" place="" credit="3" popular="56" target="" notice="재/미수강(2021 학번 이전 재학생 전용 분반)" lectureId="108751" lectureRate="4.28" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655488" code="HALR1032-21" name="사고와표현" professor="" type="교필" grade="1" time="수10,11,12(R101)" place="" credit="3" popular="56" target="" notice="사고와표현 재/미수강(2021 학번 이전 재학생 전용 분반)" lectureId="108751" lectureRate="4.28" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="216" end="252" place="R101"/>
   </subject>
-  <subject id="5655489" code="HALR1032-22" name="사고와표현" professor="박건숙" type="교필" grade="1" time="화7,8(R209) 목8(R209)" place="" credit="3" popular="0" target="" notice="외국인 유학생 전용 분반" lectureId="118705" lectureRate="4.43" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655489" code="HALR1032-22" name="사고와표현" professor="박건숙" type="교필" grade="1" time="화7,8(R209) 목8(R209)" place="" credit="3" popular="0" target="" notice="사고와표현 외국인 유학생 전용 분반" lectureId="118705" lectureRate="4.43" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="180" end="204" place="R209"/>
     <timeplace day="3" start="192" end="204" place="R209"/>
   </subject>
-  <subject id="5655490" code="HALR1032-23" name="사고와표현" professor="양태영" type="교필" grade="1" time="수6(N202) 금7,8(N202)" place="" credit="3" popular="0" target="" notice="외국인 유학생 전용 분반" lectureId="77231" lectureRate="4" misc1="" misc2="" misc3="" misc4="">
+  <subject id="5655490" code="HALR1032-23" name="사고와표현" professor="양태영" type="교필" grade="1" time="수6(N202) 금7,8(N202)" place="" credit="3" popular="0" target="" notice="사고와표현 외국인 유학생 전용 분반" lectureId="77231" lectureRate="4" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N202"/>
     <timeplace day="4" start="180" end="204" place="N202"/>
   </subject>

@@ -671,93 +671,93 @@
   <subject id="2972300" code="TT0210-3" name="학교폭력예방의이론과실제" professor="유혜승" type="1교직" grade="" time="금7,8(A103)" place="금7,8(A103)" credit="2" popular="6" target="" notice="통합" lectureId="1774446" lectureRate="4.5" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="4" start="180" end="204" place="A103"/>
   </subject>
-  <subject id="2972301" code="LR1032-1" name="사고와표현" professor="전영옥" type="교필" grade="" time="월3,4,수3(R202)" place="월3,4,수3(R202)" credit="3" popular="48" target="" notice="역사콘텐츠학과 전용분반" lectureId="120353" lectureRate="4.29" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972301" code="LR1032-1" name="사고와표현" professor="전영옥" type="교필" grade="" time="월3,4,수3(R202)" place="월3,4,수3(R202)" credit="3" popular="48" target="" notice="사고와표현 역사콘텐츠학과 전용분반" lectureId="120353" lectureRate="4.29" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="R202"/>
     <timeplace day="2" start="132" end="144" place="R202"/>
   </subject>
-  <subject id="2972302" code="LR1032-2" name="사고와표현" professor="송인성" type="교필" grade="" time="월3,4,수3(N501)" place="월3,4,수3(N501)" credit="3" popular="34" target="" notice="지적재산권학과 전용분반" lectureId="1034979" lectureRate="3.97" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972302" code="LR1032-2" name="사고와표현" professor="송인성" type="교필" grade="" time="월3,4,수3(N501)" place="월3,4,수3(N501)" credit="3" popular="34" target="" notice="사고와표현 지적재산권학과 전용분반" lectureId="1034979" lectureRate="3.97" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N501"/>
     <timeplace day="2" start="132" end="144" place="N501"/>
   </subject>
-  <subject id="2972303" code="LR1032-3" name="사고와표현" professor="박혜숙" type="교필" grade="" time="월3,4,수3(R101)" place="월3,4,수3(R101)" credit="3" popular="28" target="" notice="문헌정보학과 전용분반" lectureId="481014" lectureRate="3.93" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972303" code="LR1032-3" name="사고와표현" professor="박혜숙" type="교필" grade="" time="월3,4,수3(R101)" place="월3,4,수3(R101)" credit="3" popular="28" target="" notice="사고와표현 문헌정보학과 전용분반" lectureId="481014" lectureRate="3.93" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="R101"/>
     <timeplace day="2" start="132" end="144" place="R101"/>
   </subject>
-  <subject id="2972304" code="LR1032-4" name="사고와표현" professor="박건숙" type="교필" grade="" time="월5,6,수4(R202)" place="월5,6,수4(R202)" credit="3" popular="29" target="" notice="한일문화콘텐츠학과 전용분반" lectureId="118705" lectureRate="4.19" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972304" code="LR1032-4" name="사고와표현" professor="박건숙" type="교필" grade="" time="월5,6,수4(R202)" place="월5,6,수4(R202)" credit="3" popular="29" target="" notice="사고와표현 한일문화콘텐츠학과 전용분반" lectureId="118705" lectureRate="4.19" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="R202"/>
     <timeplace day="2" start="144" end="156" place="R202"/>
   </subject>
-  <subject id="2972305" code="LR1032-5" name="사고와표현" professor="방영심" type="교필" grade="" time="월3,4,수3(N407)" place="월3,4,수3(N407)" credit="3" popular="40" target="" notice="공간환경학부 전용분반" lectureId="76504" lectureRate="3.89" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972305" code="LR1032-5" name="사고와표현" professor="방영심" type="교필" grade="" time="월3,4,수3(N407)" place="월3,4,수3(N407)" credit="3" popular="40" target="" notice="사고와표현 공간환경학부 전용분반" lectureId="76504" lectureRate="3.89" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N407"/>
     <timeplace day="2" start="132" end="144" place="N407"/>
   </subject>
-  <subject id="2972306" code="LR1032-6" name="사고와표현" professor="송인성" type="교필" grade="" time="월5,6,수4(N501)" place="월5,6,수4(N501)" credit="3" popular="36" target="" notice="공공인재학부 전용분반" lectureId="1034979" lectureRate="3.97" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972306" code="LR1032-6" name="사고와표현" professor="송인성" type="교필" grade="" time="월5,6,수4(N501)" place="월5,6,수4(N501)" credit="3" popular="36" target="" notice="사고와표현 공공인재학부 전용분반" lectureId="1034979" lectureRate="3.97" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="N501"/>
     <timeplace day="2" start="144" end="156" place="N501"/>
   </subject>
-  <subject id="2972307" code="LR1032-7" name="사고와표현" professor="방영심" type="교필" grade="" time="월5,6,수4(N407)" place="월5,6,수4(N407)" credit="3" popular="26" target="" notice="공공인재학부 전용분반" lectureId="76504" lectureRate="3.93" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972307" code="LR1032-7" name="사고와표현" professor="방영심" type="교필" grade="" time="월5,6,수4(N407)" place="월5,6,수4(N407)" credit="3" popular="26" target="" notice="사고와표현 공공인재학부 전용분반" lectureId="76504" lectureRate="3.93" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="N407"/>
     <timeplace day="2" start="144" end="156" place="N407"/>
   </subject>
-  <subject id="2972308" code="LR1032-8" name="사고와표현" professor="김현주" type="교필" grade="" time="월5,6,수4(R101)" place="월5,6,수4(R101)" credit="3" popular="45" target="" notice="가족복지학과 전용분반" lectureId="1033579" lectureRate="4.38" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972308" code="LR1032-8" name="사고와표현" professor="김현주" type="교필" grade="" time="월5,6,수4(R101)" place="월5,6,수4(R101)" credit="3" popular="45" target="" notice="사고와표현 가족복지학과 전용분반" lectureId="1033579" lectureRate="4.38" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="R101"/>
     <timeplace day="2" start="144" end="156" place="R101"/>
   </subject>
-  <subject id="2972309" code="LR1032-9" name="사고와표현" professor="송인성" type="교필" grade="" time="수7,금5,6(N501)" place="수7,금5,6(N501)" credit="3" popular="36" target="" notice="국가안보학과 전용분반" lectureId="1034979" lectureRate="4.03" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972309" code="LR1032-9" name="사고와표현" professor="송인성" type="교필" grade="" time="수7,금5,6(N501)" place="수7,금5,6(N501)" credit="3" popular="36" target="" notice="사고와표현 국가안보학과 전용분반" lectureId="1034979" lectureRate="4.03" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N501"/>
     <timeplace day="4" start="156" end="180" place="N501"/>
   </subject>
-  <subject id="2972310" code="LR1032-10" name="사고와표현" professor="임혜원" type="교필" grade="" time="수7,금5,6(R101)" place="수7,금5,6(R101)" credit="3" popular="37" target="" notice="수학교육과 전용분반" lectureId="1690750" lectureRate="2.85" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972310" code="LR1032-10" name="사고와표현" professor="임혜원" type="교필" grade="" time="수7,금5,6(R101)" place="수7,금5,6(R101)" credit="3" popular="37" target="" notice="사고와표현 수학교육과 전용분반" lectureId="1690750" lectureRate="2.85" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="R101"/>
     <timeplace day="4" start="156" end="180" place="R101"/>
   </subject>
-  <subject id="2972311" code="LR1032-11" name="사고와표현" professor="방영심" type="교필" grade="" time="수6,금3,4(N407)" place="수6,금3,4(N407)" credit="3" popular="48" target="" notice="경제금융학부 전용분반" lectureId="76504" lectureRate="4.08" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972311" code="LR1032-11" name="사고와표현" professor="방영심" type="교필" grade="" time="수6,금3,4(N407)" place="수6,금3,4(N407)" credit="3" popular="48" target="" notice="사고와표현 경제금융학부 전용분반" lectureId="76504" lectureRate="4.08" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N407"/>
     <timeplace day="4" start="132" end="156" place="N407"/>
   </subject>
-  <subject id="2972312" code="LR1032-12" name="사고와표현" professor="임혜원" type="교필" grade="" time="수6,금3,4(R101)" place="수6,금3,4(R101)" credit="3" popular="32" target="" notice="경제금융학부 전용분반" lectureId="1690750" lectureRate="2.55" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972312" code="LR1032-12" name="사고와표현" professor="임혜원" type="교필" grade="" time="수6,금3,4(R101)" place="수6,금3,4(R101)" credit="3" popular="32" target="" notice="사고와표현 경제금융학부 전용분반" lectureId="1690750" lectureRate="2.55" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="R101"/>
     <timeplace day="4" start="132" end="156" place="R101"/>
   </subject>
-  <subject id="2972313" code="LR1032-13" name="사고와표현" professor="전영옥" type="교필" grade="" time="수6,금3,4(R202)" place="수6,금3,4(R202)" credit="3" popular="50" target="" notice="경영학부 전용분반" lectureId="120353" lectureRate="4.19" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972313" code="LR1032-13" name="사고와표현" professor="전영옥" type="교필" grade="" time="수6,금3,4(R202)" place="수6,금3,4(R202)" credit="3" popular="50" target="" notice="사고와표현 경영학부 전용분반" lectureId="120353" lectureRate="4.19" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="R202"/>
     <timeplace day="4" start="132" end="156" place="R202"/>
   </subject>
-  <subject id="2972314" code="LR1032-14" name="사고와표현" professor="송인성" type="교필" grade="" time="수6,금3,4(N501)" place="수6,금3,4(N501)" credit="3" popular="38" target="" notice="경영학부 전용분반" lectureId="1034979" lectureRate="4.06" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972314" code="LR1032-14" name="사고와표현" professor="송인성" type="교필" grade="" time="수6,금3,4(N501)" place="수6,금3,4(N501)" credit="3" popular="38" target="" notice="사고와표현 경영학부 전용분반" lectureId="1034979" lectureRate="4.06" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N501"/>
     <timeplace day="4" start="132" end="156" place="N501"/>
   </subject>
-  <subject id="2972315" code="LR1032-15" name="사고와표현" professor="박건숙" type="교필" grade="" time="월7,8,수5(R202)" place="월7,8,수5(R202)" credit="3" popular="45" target="" notice="글로벌경영학과 전용분반" lectureId="118705" lectureRate="3.92" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972315" code="LR1032-15" name="사고와표현" professor="박건숙" type="교필" grade="" time="월7,8,수5(R202)" place="월7,8,수5(R202)" credit="3" popular="45" target="" notice="사고와표현 글로벌경영학과 전용분반" lectureId="118705" lectureRate="3.92" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="R202"/>
     <timeplace day="2" start="156" end="168" place="R202"/>
   </subject>
-  <subject id="2972316" code="LR1032-16" name="사고와표현" professor="윤태식" type="교필" grade="" time="월7,8,수5(N501)" place="월7,8,수5(N501)" credit="3" popular="45" target="" notice="글로벌경영학과 전용분반" lectureId="481032" lectureRate="4.22" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972316" code="LR1032-16" name="사고와표현" professor="윤태식" type="교필" grade="" time="월7,8,수5(N501)" place="월7,8,수5(N501)" credit="3" popular="45" target="" notice="사고와표현 글로벌경영학과 전용분반" lectureId="481032" lectureRate="4.22" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="N501"/>
     <timeplace day="2" start="156" end="168" place="N501"/>
   </subject>
-  <subject id="2972317" code="LR1032-17" name="사고와표현" professor="김도환" type="교필" grade="" time="월11,12,13(N201)" place="월11,12,13(N201)" credit="3" popular="15" target="" notice="융합경영학과 전용분반" lectureId="77229" lectureRate="5" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972317" code="LR1032-17" name="사고와표현" professor="김도환" type="교필" grade="" time="월11,12,13(N201)" place="월11,12,13(N201)" credit="3" popular="15" target="" notice="사고와표현 융합경영학과 전용분반" lectureId="77229" lectureRate="5" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="228" end="264" place="N201"/>
   </subject>
-  <subject id="2972318" code="LR1032-18" name="사고와표현" professor="전영주" type="교필" grade="" time="월10,11,12(N202)" place="월10,11,12(N202)" credit="3" popular="44" target="" notice="재학생 미수강/재수강 전용분반" lectureId="1033581" lectureRate="3.33" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972318" code="LR1032-18" name="사고와표현" professor="전영주" type="교필" grade="" time="월10,11,12(N202)" place="월10,11,12(N202)" credit="3" popular="44" target="" notice="사고와표현 재학생 미수강/재수강 전용분반" lectureId="1033581" lectureRate="3.33" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="0" start="216" end="252" place="N202"/>
   </subject>
-  <subject id="2972319" code="LR1032-19" name="사고와표현" professor="전영옥" type="교필" grade="" time="수7,금5,6(R202)" place="수7,금5,6(R202)" credit="3" popular="49" target="" notice="휴먼지능정보공학과 전용분반" lectureId="120353" lectureRate="4.1" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972319" code="LR1032-19" name="사고와표현" professor="전영옥" type="교필" grade="" time="수7,금5,6(R202)" place="수7,금5,6(R202)" credit="3" popular="49" target="" notice="사고와표현 휴먼지능정보공학과 전용분반" lectureId="120353" lectureRate="4.1" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="R202"/>
     <timeplace day="4" start="156" end="180" place="R202"/>
   </subject>
-  <subject id="2972320" code="LR1032-20" name="사고와표현" professor="방영심" type="교필" grade="" time="수7,금5,6(N407)" place="수7,금5,6(N407)" credit="3" popular="38" target="" notice="휴먼지능정보공학과 전용분반" lectureId="76504" lectureRate="3.88" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972320" code="LR1032-20" name="사고와표현" professor="방영심" type="교필" grade="" time="수7,금5,6(N407)" place="수7,금5,6(N407)" credit="3" popular="38" target="" notice="사고와표현 휴먼지능정보공학과 전용분반" lectureId="76504" lectureRate="3.88" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N407"/>
     <timeplace day="4" start="156" end="180" place="N407"/>
   </subject>
-  <subject id="2972321" code="LR1032-21" name="사고와표현" professor="양태영" type="교필" grade="" time="수7,금5,6(N402)" place="수7,금5,6(N402)" credit="3" popular="7" target="" notice="외국인유학생 전용분반/일반학생수강불가" lectureId="77231" lectureRate="0" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972321" code="LR1032-21" name="사고와표현" professor="양태영" type="교필" grade="" time="수7,금5,6(N402)" place="수7,금5,6(N402)" credit="3" popular="7" target="" notice="사고와표현 외국인유학생 전용분반/일반학생수강불가" lectureId="77231" lectureRate="0" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N402"/>
     <timeplace day="4" start="156" end="180" place="N402"/>
   </subject>
-  <subject id="2972322" code="LR1032-22" name="사고와표현" professor="이경수" type="교필" grade="" time="수7,금5,6(N404)" place="수7,금5,6(N404)" credit="3" popular="7" target="" notice="외국인유학생 전용분반/일반학생수강불가" lectureId="382304" lectureRate="5" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972322" code="LR1032-22" name="사고와표현" professor="이경수" type="교필" grade="" time="수7,금5,6(N404)" place="수7,금5,6(N404)" credit="3" popular="7" target="" notice="사고와표현 외국인유학생 전용분반/일반학생수강불가" lectureId="382304" lectureRate="5" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N404"/>
     <timeplace day="4" start="156" end="180" place="N404"/>
   </subject>
-  <subject id="2972323" code="LR1032-23" name="사고와표현" professor="이덕희" type="교필" grade="" time="수7,금5,6(N412)" place="수7,금5,6(N412)" credit="3" popular="2" target="" notice="외국인유학생 전용분반/일반학생수강불가" lectureId="1690752" lectureRate="0" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
+  <subject id="2972323" code="LR1032-23" name="사고와표현" professor="이덕희" type="교필" grade="" time="수7,금5,6(N412)" place="수7,금5,6(N412)" credit="3" popular="2" target="" notice="사고와표현 외국인유학생 전용분반/일반학생수강불가" lectureId="1690752" lectureRate="0" misc1="서울캠퍼스" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N412"/>
     <timeplace day="4" start="156" end="180" place="N412"/>
   </subject>

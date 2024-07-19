@@ -1,0 +1,1062 @@
+everytime2024_2;
+
+
+
+ALTER TABLE everytime2024_2
+ADD COLUMN SBJ_NO VARCHAR(255),
+ADD COLUMN SBJ_NM VARCHAR(255),
+ADD COLUMN LECT_TIME_ROOM VARCHAR(255),
+ADD COLUMN CMP_DIV_RCD VARCHAR(255),
+ADD COLUMN THEO_TIME INT,
+ADD COLUMN ATTC_FILE_NO VARCHAR(255),
+ADD COLUMN DIVCLS INT,
+ADD COLUMN TLSN_RMK VARCHAR(255),
+ADD COLUMN CDT INT,
+ADD COLUMN SES_RCD VARCHAR(255),
+ADD COLUMN CMP_DIV_NM VARCHAR(255),
+ADD COLUMN CYBER_YN VARCHAR(255),
+ADD COLUMN CYBER_B_YN VARCHAR(255),
+ADD COLUMN SCH_YEAR VARCHAR(255),
+ADD COLUMN PRAC_TIME INT,
+ADD COLUMN CYBER_S_YN VARCHAR(255),
+ADD COLUMN FILE_PBY_YN VARCHAR(255),
+ADD COLUMN KIND_RCD VARCHAR(255),
+ADD COLUMN SBJ_DIVCLS VARCHAR(255),
+ADD COLUMN STAFF_NM VARCHAR(255),
+ADD COLUMN DEPT_CD VARCHAR(255),
+ADD COLUMN RMK VARCHAR(255),
+ADD COLUMN CYBER_E_YN VARCHAR(255),
+ADD COLUMN REP_STAFF_NO VARCHAR(255),
+ADD COLUMN EST_DEPT_INFO VARCHAR(255),
+ADD COLUMN SMT_RCD VARCHAR(255),
+ADD COLUMN CRS_SHYR VARCHAR(255),
+ADD COLUMN KIND_NM VARCHAR(255),
+ADD COLUMN BEF_CTNT_02 VARCHAR(255),
+ADD COLUMN BEF_CTNT_01 VARCHAR(255);
+
+ADD COLUMN subject_type VARCHAR(255);
+
+각 행에 대해 고유한 code 값을 제공.
+code 필드에서 PRIMARY KEY 제약 조건을 제거.
+만약 code 필드를 반드시 사용해야 하는 경우, 중복되지 않는 값으로 설정.
+
+
+
+INSERT INTO everytime2024_2 (
+    SBJ_NO, SCH_YEAR, CMP_DIV_RCD, KIND_RCD, SBJ_NM, CDT, THEO_TIME, PRAC_TIME, 
+    LECT_TIME_ROOM, DIVCLS, STAFF_NM, RMK, code,subject_type
+) VALUES 
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화5(N201),목3,4(N201)', 1, '심예지', 'EFAP 임시분반 신청불가', 'EFAP 1','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화5(N202),목3,4(N202)', 2, '정희정', 'EFAP 임시분반 신청불가', 'EFAP 2','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '월3,4(N201),수5(N201)', 3, '심예지', 'EFAP 사범대학 전용분반', 'EFAP 3','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '월3,4(R201),수5(R201)', 4, '이연숙', 'EFAP 경영경제대학(융합경영학과제외) 전용분반', 'EFAP 4','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화11,12,13(N202)', 5, '정희정', 'EFAP 융합경영학과전용분반', 'EFAP5','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화3,4(N201), 목5(N201)', 6, '심예지', 'EFAP 임시분반 신청불가', 'EFAP 6','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화3,4(R201), 목5(R201)', 7, '이연숙', 'EFAP 임시분반 신청불가', 'EFAP 7','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화3,4(R203), 목5(R203)', 8, '프란시스브래넌', 'EFAP 임시분반 신청불가', 'EFAP 8','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '월5(R103), 수3,4(R103)', 9, '이연숙', 'EFAP 임시분반 신청불가', 'EFAP 9','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '월5(R201), 수3,4(R201)', 10, '프란시스브래넌', 'EFAP 임시분반 신청불가', 'EFAP 10','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화5(Z100),목3,4(Z100)', 11, '미정', 'EFAP 인문사회과학대학 전용분반', 'EFAP 11','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '화3,4(Z100),목5(Z100)', 12, '미정', 'EFAP 융합공과대학 전용분반', 'EFAP 12','EAFP'
+),
+(
+    'HALR1050', '1', '교필', NULL, 'EnglishforAcademicPurposes', 3, 3, 0, 
+    '월5(Z100),수3,4(Z100)', 13, '미정', 'EFAP 문화예술대학 전용분반', 'EFAP13','EAFP'
+),
+
+
+(
+    'HALR1221', '1', '교필', NULL, '교양과인성(컴퓨터과학)', 1, 1, 0, 
+    '금10(G201)', 1, '백윤철', 'RAP 1학년 전용수업(재수강 대상자 계당교양 교육원 별도 신청', 'RAP1','RAP'
+),
+(
+    'HALR1221', '1', '교필', NULL, '교양과인성(컴퓨터과학)', 1, 1, 0, 
+    '금10(G206)', 2, '송병호', 'RAP 1학년 전용수업(재수강 대상자 계당교양 교육원 별도 신청', 'RAP2','RAP'
+),
+(
+    'HALR1221', '1', '교필', NULL, '교양과인성(컴퓨터과학)', 1, 1, 0, 
+    '금10(G201)', 3, '신경섭', 'RAP 1학년 전용수업(재수강 대상자 계당교양 교육원 별도 신청', 'RAP3','RAP'
+),
+(
+    'HALR1221', '1', '교필', NULL, '교양과인성(컴퓨터과학)', 1, 1, 0, 
+    '금10(G201)', 4, '나재호', 'RAP 1학년 전용수업(재수강 대상자 계당교양 교육원 별도 신청', 'RAP4','RAP'
+),
+(
+    'HALR1221', '1', '교필', NULL, '교양과인성(유학생)', 1, 1, 0, 
+    '금3(N301-3)', 4, '김은수', 'RAP 외국인유학생전용분반', 'RAP5','RAP'
+),
+
+
+
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '화3,4(R101),목5(R101)', 1, '방영심', 'TAE임시분반신청불가', 'TAE1','thinkingAndExpression'
+),
+
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '화3,4(R202),목5(R202)', 2, '송인성', 'TAE임시분반신청불가', 'TAE2','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '월5(R202),수3,4(R202)', 3, '송인성', 'TAE사범대학전용분반', 'TAE3','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '월5(R101),수3,4(R101)', 4, '방영심', 'TAE경영경제대학(융합경영학과제외)전용분반', 'TAE4','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '수11,12,13(R101)', 5, '윤태식', 'TAE융합경영학과전용분반', 'TAE5','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '화5(R202),목3,4(R202)', 6, '송인성', 'TAE임시분반신청불가', 'TAE6','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '화5(R101),목3,4(R101)', 7, '방영심', 'TAE임시분반신청불가', 'TAE7','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '화5(SB001),목3,4(SB001)', 8, '박선애', 'TAE임시분반신청불가', 'TAE8','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '월3,4(R101),수5(R101)', 9, '방영심', 'TAE임시분반신청불가', 'TAE9','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '월3,4(R202),수5(R202)', 10, '송인성', 'TAE임시분반신청불가', 'TAE10','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '화3,4(Z100),목5(Z100)', 11, '미정', 'TAE인문사회과학대학 전용분반', 'TAE11','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '화5(Z100),목3,4(Z100)', 12, '미정', 'TAE융합공과대학전용분반', 'TAE12','thinkingAndExpression'
+),
+(
+    'HALR1032', '전체', '교필', NULL, '사고와표현', 3, 3, 0, 
+    '월3,4(Z100),수5(Z100)', 13, '미정', 'TAE문화예술대학전용분반', 'TAE13','thinkingAndExpression'
+),
+
+
+(
+    'HALR1231', '전체', '교필', NULL, '기초수학', 3, 3, 0, 
+    '화1,2,3(T305)', 1, '권윤기', 'basicmath수학교육과 및 융합공과대학 미소속 학생 대상 분반', 'basicmath1','basicmath'
+),
+(
+    'HALR1231', '전체', '교필', NULL, '기초수학', 3, 3, 0, 
+    '월1(T405),목3,4(T405)', 2, '김재우', 'basicmath수학교육과 및 융합공과대학 소속 학생 대상 분반', 'basicmath2','basicmath'
+),
+
+
+
+
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '월3(A501),월3(R212),월2(R203)', 1, '권정인,김민정', 'AGC가족복지학과,공간환경학부전용분반 ', 'AGC1','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '월5(A501),월5(R212),월4(R203)', 2, '권정인,김민정', 'AGC 국가안보학과, 행정학부 전용분반', 'AGC2','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '월6(A301),월5(R102),월6(A501)', 3, '박기서,이재호', 'AGC 역사콘텐츠전공,문헌정보학전공전용분반', 'AGC3','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '월7(A501),월7(R212),월6(R203)', 4, '권정인,김민정', 'AGC 지적재산권전공,애니메이션전공,한일문화콘텐츠전공 전용분반', 'AGC4','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '월8(A301),월7(R102),월8(A501)', 5, '박기서,이재호', 'AGC국어교육과,교육학과 전용분반 ', 'AGC5','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '수3(A501),수3(R212),수2(R203)', 6, '권정인,김민정', 'AGC휴먼지능정보공학전공,빅데이터융합전공전용분반 ', 'AGC6','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '수4(G418),수3(N303),수4(G307)', 7, '김석규,성한울', 'AGC 컴퓨터과학전공전용분반', 'AGC7','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '수5(A501),수5(R212),수4(R203)', 8, '권정인,김민정', 'AGC 화공신소재공학전공,전기공학전공,핀테크전공 전용분반', 'AGC8','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '수6(G418),수5(N303),수6(G307)', 9, '김석규,성한울', 'AGC 지능IOT융합전공, 게임전공, 스마트생산전공 전용분반', 'AGC9','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '수7(A501),수7(R212),수6(R203)', 10, '권정인,김민정', 'AGC화학에너지공학전공,생명공학전공전용분반 ', 'AGC10','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '수8(G418),수7(N303),수8(G307)', 11, '김석규,성한울', 'AGC 영어교육과,수학교육과 전용분반', 'AGC11','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '금3(A501),금3(R212),금2(R203)', 12, '권정인,김민정', 'AGC 경영학부전용분반', 'AGC12','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '금4(A301),금3(R102),금4(A501)', 13, '성한울,이재호', 'AGC글로벌경영학과 전용분반 ', 'AGC13','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '금5(A501),금5(R212),금4(R203)', 14, '권정인,김민정', 'AGC 스포츠건강관리전공,무용예술전공전용분반', 'AGC14','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '금6(A301),금5(R102),금6(A501)', 15, '성한울,이재호', 'AGC 경제금융학부 전용분반', 'AGC15','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '금7(A501),금7(R212),금6(R203)', 16, '권정인,김민정', 'AGC 식품영양학전공, 음악학부 전용분반', 'AGC16','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '금8(A301),금7(R102),금8(A501)', 17, '박기서,이재호', 'AGC 조형예술전공,생활예술전공,의류학전공 전용분반', 'AGC17','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '월12(A501),월12(R212),월11(R102)', 18, '박기서,이재호', 'AGC 융합경영학과 전용분반', 'AGC18','algorithmgamecontents'
+),
+(
+    'HALR1239', '전체', '교필', NULL, '알고리즘과게임콘텐츠', 2,1,1, 
+    '월4(A301),월3(R102)', 19, '박기서', 'AGC 재수강전용분반', 'AGC19','algorithmgamecontents'
+),
+
+
+#전문지식탐구역량 ERS
+
+(
+    'HALF9398', '전체', '교필', NULL, '이미지시대의테크놀로지와예술', 3, 3, 0, 
+    '화7,8,9(T405)', 1, '오경은', 'ERS 전문지식탐구역량expertiseResearchSkill', 'ERS4', 'expertiseResearchSkill'
+),
+(
+    'HALF9408', '전체', '교필', NULL, '빅히스토리와인공지능', 3, 3, 0, 
+    '금1,2,3(T405)', 1, '김상헌,최희수', 'ERS 전문지식탐구역량expertiseResearchSkill/E-러닝교과목/융합경영학과전용분반(강의시간 변경 예정)', 'ERS5', 'expertiseResearchSkill'
+),
+(
+    'HALR1269', '전체', '교필', NULL, '예술,비즈니스,문화와함께하는지식재산권법입문', 3, 3, 0, 
+    '월7,8,9(T405)', 1, '전우석', 'ERS 전문지식탐구역량expertiseResearchSkill', 'ERS6', 'expertiseResearchSkill'
+),
+
+
+
+
+
+
+#윤리실천역량 EPS
+(
+    'HALF9404', '전체', '교필', NULL, '호모엠파티쿠스(고통받는인간)', 2, 2, 0, 
+    '수5,6(T305)', 1, '최종술', ' EPS 윤리실천역량ethicalPracticeSkill', 'EPS1','ethicalPracticeSkill'
+),
+(
+    'HALF9404', '전체', '교필', NULL, '호모엠파티쿠스(고통받는인간)', 2, 2, 0, 
+    '수7,8(T305)', 2, '최종술', 'EPS 윤리실천역량ethicalPracticeSkill', 'EPS2','ethicalPracticeSkill'
+),
+
+(
+    'HALF9438', '전체', '교필', NULL, '인간과시간', 2, 2, 0, 
+    '목1,2(T305)', 1, '이철의', 'EPS 윤리실천역량ethicalPracticeSkill', 'EPS3','ethicalPracticeSkill'
+),
+(
+    'HALF9438', '전체', '교필', NULL, '인간과시간', 2, 2, 0, 
+    '목3,4(T305)', 2, '이철의', 'EPS 윤리실천역량ethicalPracticeSkill', 'EPS4','ethicalPracticeSkill'
+),
+
+(
+    'HALR1038', '전체', '교필', NULL, '상명정신과윤리적삶', 2, 2, 0, 
+    '목7,8(R102)', 1, '이청호', 'EPS 윤리실천역량ethicalPracticeSkill', 'EPS5','ethicalPracticeSkill'
+),
+(
+    'HALR1038', '전체', '교필', NULL, '상명정신과윤리적삶', 2, 2, 0, 
+    '목9,10(R102)', 2, '이청호', 'EPS 윤리실천역량ethicalPracticeSkill', 'EPS6','ethicalPracticeSkill'
+),
+
+
+#창의적문제해결역량 CPS
+(
+    'HALF9427', '전체', '교필', NULL, '상상속의아이디어', 2, 2, 0, 
+    '월3,4(T405)', 1, '이진영', 'CPS 창의적문제해결역량creativeProblemSolvingSkill', 'CPS1','creativeProblemSolvingSkill'
+),
+
+(
+    'HALF9427', '전체', '교필', NULL, '상상속의아이디어', 2, 2, 0, 
+    '월5,6(T405)', 1, '이진영', 'CPS 창의적문제해결역량creativeProblemSolvingSkill', 'CPS2','creativeProblemSolvingSkill'
+),
+
+(
+    'HALR1040', '전체', '교필', NULL, '창의적문제해결', 2, 2, 0, 
+    '화3,4(T406)', 1, '이승배', 'CPS 창의적문제해결역량creativeProblemSolvingSkill', 'CPS3','creativeProblemSolvingSkill'
+),
+(
+    'HALR1040', '전체', '교필', NULL, '창의적문제해결', 2, 2, 0, 
+    '화5,6(T406)', 2, '이승배', 'CPS 창의적문제해결역량creativeProblemSolvingSkill', 'CPS4','creativeProblemSolvingSkill'
+),
+(
+    'HALR1040', '전체', '교필', NULL, '창의적문제해결', 2, 2, 0, 
+    '토8,9(R202)', 3, '오철', 'CPS 창의적문제해결역량creativeProblemSolvingSkill(E-러닝-융합경영학과전용분반)', 'CPS5','creativeProblemSolvingSkill'
+),
+(
+    'HALR1040', '전체', '교필', NULL, '컴퓨테이셔널씽킹', 2, 2, 0, 
+    '화1,2(T405)', 1, '이재학', 'CPS 창의적문제해결역량creativeProblemSolvingSkill', 'CPS6','creativeProblemSolvingSkill'
+),
+(
+    'HALR1040', '전체', '교필', NULL, '컴퓨테이셔널씽킹', 2, 2, 0, 
+    '화3,4(T405)', 2, '이재학', 'CPS 창의적문제해결역량creativeProblemSolvingSkill', 'CPS7','creativeProblemSolvingSkill'
+),
+
+(
+    'HALR1270', '전체', '교필', NULL, '창의적디자인상상', 3, 3, 0, 
+    '금1,2,3(T306)', 1, '김희균', 'CPS 창의적문제해결역량creativeProblemSolvingSkill', 'CPS8','creativeProblemSolvingSkill'
+),
+
+
+#융복합역량interdisciplinarySkill IDS
+(
+    'HALF9429', '전체', '교필', NULL, 'K-Culture를통해보는예술의산업가치', 3, 3, 0, 
+    '금4,5,6(T405)', 1, '강혜승,이소현', 'IDS 융복합역량interdisciplinarySkill', 'IDS1','interdisciplinarySkill'
+),
+
+(
+    'HALF9429', '전체', '교필', NULL, 'K-Culture를통해보는예술의산업가치', 3, 3, 0, 
+    '금7,8,9(T405)', 2, '강혜승,이소현', 'IDS 융복합역량interdisciplinarySkill', 'IDS2','interdisciplinarySkill'
+),
+
+(
+    'HALR1271', '전체', '교필', NULL, '색채심리학', 3, 3, 0, 
+    '월4,5,6(N202)', 1, '성원선', 'IDS 융복합역량interdisciplinarySkill', 'IDS3', 'interdisciplinarySkill'
+),
+
+
+#다양성존중역량diversityRespectSkill DRS
+(
+    'HALF9434', '전체', '교필', NULL, '문화감수성의이해와실천', 3, 3, 0, 
+    '월1,2(R103),화3(R103)', 1, '정유선', 'DRS다양성존중역량diversityRespectSkill', 'DRS1','diversityRespectSkill'
+),
+
+(
+    'HALF9434', '전체', '교필', NULL, '문화감수성의이해와실천', 3, 3, 0, 
+    '월3(R103),화1,2(R103)', 2, '정유선', 'DRS다양성존중역량diversityRespectSkill', 'DRS2','diversityRespectSkill'
+),
+(
+    'HALF9435', '전체', '교필', NULL, '문화다양성과미디어', 3, 3, 0, 
+    '금1,2,3(T305)', 1, '정의진', 'DRS다양성존중역량diversityRespectSkill', 'DRS3','diversityRespectSkill'
+),
+
+
+
+
+#균형교양
+#인문학의이해humanity
+(
+    'HALF0102', '전체', '교선', NULL, '인간과언어', 3, 3, 0, 
+    '화10,11,12(R201)', 1, '오민석', '인문학의이해humanityE-러닝교과목/3-4학년만 수강가능', 'humanity1','humanity'
+),
+(
+    'HALF0302', '전체', '교선', NULL, '세계신화와이해', 3, 3, 0, 
+    '수7,8,9(R203)', 1, '유현주', '인문학의이해humanity', 'humanity2','humanity'
+),
+
+(
+    'HALF9338', '전체', '교선', NULL, '명저읽기(문학)', 3, 3, 0, 
+    '월7,8,9(A401)', 1, '강옥희', '인문학의이해humanity', 'humanity3','humanity'
+),
+(
+    'HALF9340', '전체', '교선', NULL, '세계문화교류', 3, 3, 0, 
+    '월5,6(T305),화7(R102)', 1, '정유선', '인문학의이해humanity', 'humanity4','humanity'
+),
+(
+    'HALF9358', '전체', '교선', NULL, '휴먼커뮤니케이션', 3, 3, 0, 
+    '월10,11,12(R201)', 1, '박재현', 'E-러닝/3-4학년만수강가능/인문학의이해humanity', 'humanity5','humanity'
+),
+(
+    'HALF9374', '전체', '교선', NULL, '공간과문명,인간', 3, 3, 0, 
+    '화3,4(N203),목3(N203)', 1, '김은수,박수경', '인문학의이해humanity', 'humanity6','humanity'
+),
+
+(
+    'HALF9439', '전체', '교선', NULL, '사회문제해결을위한문화와콘텐츠', 3, 3, 0, 
+    '수6(N505),목7,8(T405)', 1, '장근수,조규헌', '인문학의이해humanity', 'humanity7','humanity'
+),
+
+
+
+
+#자연/공학 natureandengineering NAE
+(
+    'HALF0537', '전체', '교선', NULL, '자연과학의세계', 3, 3, 0, 
+    '금4,5,6(N201)', 1, '홍세령', 'natureandengineering NAE자연과학의세계', 'NAE1','natureandengineering'
+),
+
+(
+    'HALF9041', '전체', '교선', NULL, '과학의철학적이해', 3, 3, 0, 
+    '수7,8,9(T301)', 1, '이청호', 'natureandengineering NAE자연과학의세계', 'NAE2','natureandengineering'
+),
+(
+    'HALF9239', '전체', '교선', NULL, '대학수학', 3, 3, 0, 
+    '수7,8,9(R202)', 1, '황병훈', '수학교육과, 융합공과대학,자연과학대학 소속 재학생전용분반 natureandengineering NAE자연과학의세계', 'NAE3','natureandengineering'
+),
+(
+    'HALF9319', '전체', '교선', NULL, '창의적프로그래밍입문', 3, 3, 0, 
+    '월10,11,12(N202)', 1, '한혁수', 'E-러닝/3-4학년만수강가능 natureandengineering NAE자연과학의세계', 'NAE4','natureandengineering'
+),
+(
+    'HALF9321', '전체', '교선', NULL, '미래생활과화학', 3, 3, 0, 
+    '월7,8,9(T401)', 1, '강상욱', 'natureandengineering NAE 자연과학의세계', 'NAE5','natureandengineering'
+),
+(
+    'HALF9329', '전체', '교선', NULL, '미래사회와디지털기술', 3, 3, 0, 
+    '금1,2,3(G307)', 1, '유지연', 'E-러닝/3-4학년만수강가능/natureandengineering NAE 자연과학의세계', 'NAE6','natureandengineering'
+),
+(
+    'HALF9362', '전체', '교선', NULL, '정량적사고', 3, 3, 0, 
+    '목7,8,9(T305)', 1, '배윤한', 'natureandengineering NAE 자연과학의세계', 'NAE7','natureandengineering'
+),
+(
+    'HALF9405', '전체', '교선', NULL, '기초AI와콘텐츠', 3, 3, 0, 
+    '목7,8,9(R203),목7,8,9(R212)', 1, '권정인', '지능·데이터융합학부,휴먼지능정보공학전공,컴퓨터과학전공, 게임전공 학생 수강 불가natureandengineering NAE 자연과학의세계', 'NAE8','natureandengineering'
+),
+
+(
+    'HALF9441', '전체', '교선', NULL, '플랫폼비즈니스와사회적가치', 3, 3, 0, 
+    '수1,2(T305),목5(R102)', 1, '이재학', 'natureandengineering NAE 자연과학의세계', 'NAE9','natureandengineering'
+),
+
+#미와예술의이해 art
+(
+    'HALF0601', '전체', '교선', NULL, '미와예술의이해', 3, 3, 0, 
+    '목7,8,9(M213)', 1, '김은경', '미와예술의이해 art', 'art1','art'
+),
+
+(
+    'HALF6071', '전체', '교선', NULL, '오페라의이해와감상', 3, 3, 0, 
+    '금1,2,3(T301)', 1, '이소연', '미와예술의이해 art', 'art2','art'
+),
+(
+    'HALF6072', '전체', '교선', NULL, '교향곡의이해', 3, 3, 0, 
+    '목10,11,12(T401)', 1, '정순석', '미와예술의이해 art/E-러닝/3-4학년만수강가능', 'art3','art'
+),
+(
+    'HALF7023', '전체', '교선', NULL, '현대생활과디자인', 3, 3, 0, 
+    '월3,4(T305),수3(T305)', 1, '이윤재,조인숙', '미와예술의이해 art', 'art4','art'
+),
+(
+    'HALF9061', '전체', '교선', NULL, '현대미술의이해', 3, 3, 0, 
+    '금5,6,7(R202)', 1, '김은경', '미와예술의이해 art', 'art5','art'
+),
+(
+    'HALF9356', '전체', '교선', NULL, '현대미술사와이론', 3, 3, 0, 
+    '월10,11,12(T305)', 1, '오경은', 'E-러닝/3-4학년만수강가능/미와예술의이해 art', 'art6','art'
+),
+(
+    'HALF9447', '전체', '교선', NULL, '기업메세나와예술을통한사회공헌', 3, 3, 0, 
+    '수7,8,9(R201)', 1, '김휘정', '미와예술의이해 art', 'art7','art'
+),
+
+
+
+#사회과학의이해 socialScience ss
+(
+    'HALF4033', '전체', '교선', NULL, '경제학의이해', 3, 3, 0, 
+    '수3,4(SB002),수0(Z201)', 1, '이동진', 'B-러닝/경제금융학부수강불가/사회과학의이해 socialScience', 'ss1','socialScience'
+),
+(
+    'HALF4033', '전체', '교선', NULL, '경제학의이해', 3, 3, 0, 
+    '월3,4(SB002),월0(Z201)', 2, '황상현', 'B-러닝/경제금융학부수강불가/사회과학의이해 socialScience', 'ss2','socialScience'
+),
+(
+    'HALF4033', '전체', '교선', NULL, '경제학의이해', 3, 3, 0, 
+    '수3,4(SB002),수0(Z201)', 3, '황상현', 'B-러닝/경제금융학부수강불가/사회과학의이해 socialScience', 'ss3','socialScience'
+),
+
+(
+    'HALF5013', '전체', '교선', NULL, '글로벌경제의이해', 3, 3, 0, 
+    '금4,5,6(T406)', 3, '강형철', '사회과학의이해 socialScience', 'ss4','socialScience'
+),
+(
+    'HALF9030', '전체', '교선', NULL, '법과민주주의', 3, 3, 0, 
+    '화7,8,9(T401)', 1, '김용훈', '사회과학의이해 socialScience', 'ss5','socialScience'
+),
+(
+    'HALF9031', '전체', '교선', NULL, '현대사회와심리학', 3, 3, 0, 
+    '화2,3,4(T401)', 1, '한규은', '사회과학의이해 socialScience', 'ss6','socialScience'
+),
+(
+    'HALF9245', '전체', '교선', NULL, '현대사회와인간', 3, 3, 0, 
+    '화7,8,9(R202)', 1, '김미경', '사회과학의이해 socialScience', 'ss7','socialScience'
+),
+(
+    'HALF9266', '전체', '교선', NULL, '현대정치의이해', 3, 3, 0, 
+    '금1,2,3(N201)', 1, '차세영', '사회과학의이해 socialScience', 'ss8','socialScience'
+),
+(
+    'HALF9280', '전체', '교선', NULL, '의식주와소비문화', 3, 3, 0, 
+    '월3,4(T406),화2(T406)', 1, '이준영', '사회과학의이해 socialScience', 'ss9','socialScience'
+),
+(
+    'HALF9320', '전체', '교선', NULL, '리터러시탐구와응용', 2, 2, 0, 
+    '화5,6(R103)', 1, '김일림', '사회과학의이해 socialScience', 'ss10','socialScience'
+),
+(
+    'HALF9320', '전체', '교선', NULL, '리터러시탐구와응용', 2, 2, 0, 
+    '수5,6(R103)', 2, '김일림', '사회과학의이해 socialScience', 'ss11','socialScience'
+),
+(
+    'HALF9326', '전체', '교선', NULL, '창의적사고의프레임워크', 3,3, 0, 
+    '월7,8,9(R201)', 1, '유상건', '사회과학의이해 socialScience', 'ss12','socialScience'
+),
+(
+    'HALF9343', '전체', '교선', NULL, '세계종교와문화', 3,3, 0, 
+    '금4,5,6(R103)', 1, '김일림', '사회과학의이해 socialScience', 'ss13','socialScience'
+),
+(
+    'HALF9343', '전체', '교선', NULL, '세계종교와문화', 3,3, 0, 
+    '금4,5,6(R103)', 1, '김일림', '사회과학의이해 socialScience', 'ss14','socialScience'
+),
+(
+    'HALF9440', '전체', '교선', NULL, '현대사회와윤리', 2,2, 0, 
+    '월9,10(N303)', 1, '김현주', 'E-러닝/3-4학년만수강가능/사회과학의이해 socialScience', 'ss15','socialScience'
+),
+(
+    'HALR1041', '전체', '교선', NULL, '문화다양성과글로벌시민', 2,2, 0, 
+    '화5,6(T305)', 1, '김은수', '사회과학의이해 socialScience', 'ss16','socialScience'
+),
+(
+    'HALR1041', '전체', '교선', NULL, '문화다양성과글로벌시민', 2,2, 0, 
+    '화7,8(T305)', 3, '김은수', '사회과학의이해 socialScience', 'ss17','socialScience'
+),
+
+(
+    'HALR1041', '전체', '교선', NULL, '문화다양성과글로벌시민', 2,2, 0, 
+    '목7,8(N303)', 4, '김은수', '사회과학의이해 socialScience', 'ss18','socialScience'
+),
+
+
+
+
+
+#연계 브리지 bridge
+(
+    'HALF9013', '전체', '교선', NULL, '기초세계사', 3, 3, 0, 
+    '금4,5,6(T301)', 1, '류한수', '연계 브리지 bridge', 'bridge1','bridge'
+),
+(
+    'HALF9015', '전체', '교선', NULL, '철학으로읽는사회와문화', 3, 3, 0, 
+    '목1,2(R201),금2(R201)', 1, '이청호', '연계 브리지 bridge', 'bridge2','bridge'
+),
+(
+    'HALF9015', '전체', '교선', NULL, '철학으로읽는사회와문화', 3, 3, 0, 
+    '목3,4(R201),금3(R201)', 2, '이청호', '연계 브리지 bridge/외국어(영어)강의', 'bridge3','bridge'
+),
+(
+    'HALF9349', '전체', '교선', NULL, '인공지능의현재와미래', 3, 3, 0, 
+    '금4,5,6(N202)', 1, '나재호', '연계 브리지 bridge', 'bridge4','bridge'
+),
+(
+    'HALF9378', '전체', '교선', NULL, '신소재와문명발달', 3, 3, 0, 
+    '금4,5,6(T306)', 1, '김희신,윤석일', '연계 브리지 bridge', 'bridge5','bridge'
+),
+(
+    'HALF9407', '전체', '교선', NULL, '현대사회와의사결정', 3, 3, 0, 
+    '수2,3,4(R102)', 1, '한규은', '연계 브리지 bridge', 'bridge6','bridge'
+),
+
+
+
+
+
+#일반교양
+
+#HALF0126 한국현대문학산책: 일반교양(언어와문화)
+(
+    'HALF0126', '전체', '교선', NULL, '한국현대문학산책', 3, 3, 0, 
+    '목7,8,9(SB002)', 1, '강옥희', '일반교양', 'general1','general'
+),
+#HALF0202 지구화시대의역사학과한국사의재조명 : 일반교양
+(
+    'HALF0202', '전체', '교선', NULL, '지구화시대의역사학과한국사의재조명', 3, 3, 0, 
+    '월7,8,9(R107)', 1, '정다함', '일반교양', 'general2','general'
+),
+#HALF0321 EnglishEnrichment(Speaking) :일반교양
+(
+    'HALF0321', '전체', '교선', NULL, 'EnglishEnrichment(Speaking)', 2, 2, 0, 
+    '월3,4(N301-3)', 1, '정희정', '일반교양', 'general3','general'
+),
+(
+    'HALF0321', '전체', '교선', NULL, 'EnglishEnrichment(Speaking)', 2, 2, 0, 
+    '화7,8(N301-3)', 2, '정희정', '일반교양', 'general4','general'
+),
+#HALF0325 일본어입문
+(
+    'HALF0321', '전체', '교선', NULL, 'EnglishEnrichment(Speaking)', 2, 2, 0, 
+    '수3,4(N202)', 1, '조규헌', '일반교양-일어교육과,한일문화콘텐츠전공 수강 불가', 'general5','general'
+),
+#HALF0401 생활법률
+(
+    'HALF0401', '전체', '교선', NULL, '생활법률', 3, 3, 0, 
+    '금4,5,6(M213)', 1, '김서기', '일반교양', 'general6','general'
+),
+#HALF0501 과학기술과환경
+(
+    'HALF0501', '전체', '교선', NULL, '과학기술과환경', 3, 3, 0, 
+    '수7,8,9(N201)', 1, '홍세령', '일반교양', 'general7','general'
+),
+#HALF0502 생명과학의이해 
+(
+    'HALF0502', '전체', '교선', NULL, '생명과학의이해', 3, 3, 0, 
+    '화3,4(N303),목4(N203)', 1, '안예진', '일반교양', 'general8','general'
+),
+(
+    'HALF0502', '전체', '교선', NULL, '생명과학의이해', 3, 3, 0, 
+    '월3,4(N303),화2(N303)', 1, '이영미', '일반교양', 'general9','general'
+),
+#HALF0503 식생활과건강
+(
+    'HALF0503', '전체', '교선', NULL, '식생활과건강', 3, 3, 0, 
+    '금7,8,9(T306)', 1, '한정아', 'E-러닝/3-4학년만수강가능/일반교양', 'general10','general'
+),
+(
+    'HALF0503', '전체', '교선', NULL, '식생활과건강', 3, 3, 0, 
+    '화7,8,9(N303) ', 2, '최현선', '일반교양', 'general11','general'
+),
+#HALF1007 통계학
+(
+    'HALF1007', '전체', '교선', NULL, '통계학', 3, 3, 0, 
+    '수7,8,9(R102) ', 1, '배윤한', '일반교양', 'general12','general'
+),
+#HALF4025 소비자와시장
+(
+    'HALF4025', '전체', '교선', NULL, '소비자와시장', 3, 3, 0, 
+    '수6(R102),목3,4(R102) ', 1, '서인주', '일반교양', 'general13','general'
+),
+#HALF5001 중국어입문
+(
+    'HALF5001', '전체', '교선', NULL, '중국어입문', 2, 2, 0, 
+    '수1,2(R103) ', 1, '정유선', '일반교양', 'general14','general'
+),
+#HALF7007 색채와디자인
+(
+
+    'HALF7007', '전체', '교선', NULL, '색채와디자인', 3, 3, 0, 
+    '수7,8,9(T405) ', 1, '방유정', '일반교양', 'general15','general'
+),
+
+
+
+#HALF7021 문화와복식
+(
+
+    'HALF7021', '전체', '교선', NULL, '문화와복식', 3, 3, 0, 
+    '금10,11,12(SB001) ', 1, '양희순', 'E-러닝/3-4학년만수강가능일반교양', 'general16','general'
+),
+#HALF8001 스포츠와피트니스
+(
+    'HALF8001', '전체', '교선', NULL, '스포츠와피트니스', 2, 0, 2, 
+    '월1,2(F201) ', 1, '강서정', '스포츠건강관리전공,스포츠융합학부소속학생수강불가/일반교양', 'general17','general'
+),
+#HALF8002 레저스포츠(골프)
+(
+    'HALF8002', '전체', '교선', NULL, '레저스포츠(골프)', 2, 0, 2, 
+    '월5,6(Z011) ', 1, '백성수', '스포츠건강관리전공,스포츠융합학부소속학생수강불가/일반교양', 'general18','general'
+),
+#HALF8003 구기스포츠(테니스)
+(
+    'HALF8003', '전체', '교선', NULL, '구기스포츠(테니스)', 2, 0, 2, 
+    '수1,2(Z010)', 1, '이효', '스포츠건강관리전공,스포츠융합학부소속학생수강불가/일반교양', 'general19','general'
+),
+(
+    'HALF8003', '전체', '교선', NULL, '구기스포츠(테니스)', 2, 0, 2, 
+    '목1,2(Z010)  ', 2, '이효', '스포츠건강관리전공,스포츠융합학부소속학생수강불가/일반교양', 'general20','general'
+),
+#HALF9050 한국사회의이해(유학생)
+(
+    'HALF9050', '전체', '교선', NULL, '한국사회의이해(유학생)', 3, 3, 0, 
+    '금4,5,6(N301-3)', 1, '김은수', '외국인유학생전용분반/일반교양', 'general21','general'
+),
+
+#HALF9052 한국문화입문(유학생)
+(
+    'HALF9052', '전체', '교선', NULL, '한국사회의이해(유학생)', 3, 3, 0, 
+    '화7,8,9(R209)', 1, '김희신', '외국인유학생전용분반/일반교양', 'general22','general'
+),
+#HALF9058 대중문화로보는일본 
+(
+    'HALF9058', '전체', '교선', NULL, '대중문화로보는일본', 3, 3, 0, 
+    '월3,4(T301),화3(SB001)', 1, '조규헌', '일반교양', 'general23','general'
+),
+#HALF9258 대화와자기표현(유학생)
+(
+    'HALF9258', '전체', '교선', NULL, '대화와자기표현(유학생)', 3, 3, 0, 
+    '월5,6(R209),화4(R209)', 1, '박건숙', '외국인유학생전용분반/일반교양', 'general24','general'
+),
+#HALF9279 긍정심리와행복탐구 
+(
+    'HALF9279', '전체', '교선', NULL, '긍정심리와행복탐구', 3, 3, 0, 
+    '금7,8,9(N201)', 1, '미정', '일반교양', 'general25','general'
+),
+#HALF9284 범죄와사회
+(
+    'HALF9284', '전체', '교선', NULL, '범죄와사회', 3, 3, 0, 
+    '월7,8,9(T301)', 1, '김동민', '일반교양', 'general26','general'
+),
+#HALF9287 컴퓨터활용능력(영상콘텐츠기획&제작)
+(
+    'HALF9287', '전체', '교선', NULL, '컴퓨터활용능력(영상콘텐츠기획&제작)', 3, 0, 3, 
+    '수4,5,6(B306)', 1, '장선희', '일반교양', 'general27','general'
+),
+(
+    'HALF9287', '전체', '교선', NULL, '컴퓨터활용능력(영상콘텐츠기획&제작)', 3, 0, 3, 
+    '수7,8,9(B306)', 2, '장선희', '일반교양', 'general28','general'
+),
+#HALF9300 인문학특강
+(
+    'HALF9300', '전체', '교선', NULL, '인문학특강', 1, 1.5, 0, 
+    '금E(T401)', 1, '이청호', '일반교양', 'general29','general'
+),
+#HALF9301 셀프리더십과자기계발 
+(
+    'HALF9301', '전체', '교선', NULL, '셀프리더십과자기계발', 2, 2, 0, 
+    '목1,2(R209)', 1, '이재학', '일반교양', 'general30','general'
+),
+(
+    'HALF9301', '전체', '교선', NULL, '셀프리더십과자기계발', 2, 2, 0, 
+    '목3,4(R209)', 2, '이재학', '일반교양', 'general31','general'
+),
+#HALF9303 돈과신용의이해
+(
+    'HALF9303', '전체', '교선', NULL, '돈과신용의이해', 3, 3, 0, 
+    '수7,8,9(T406)', 1, '양세정', '일반교양', 'general32','general'
+),
+#HALF9311 English Enrichment
+(
+    'HALF9311', '전체', '교선', NULL, 'EnglishEnrichment(English through Cultural Understanding)', 3, 3, 0, 
+    '월7,8,9(R202)', 1, '프란시스브래넌', '일반교양', 'general33','general'
+),
+(
+    'HALF9311', '전체', '교선', NULL, 'EnglishEnrichment(English through Cultural Understanding)', 3, 3, 0, 
+    '목7,8,9(R202)', 2, '프란시스브래넌', '일반교양', 'general34','general'
+),
+#HALF9322 키워드로읽는중국사회 
+(
+    'HALF9322', '전체', '교선', NULL, '키워드로읽는중국사회', 3, 3, 0, 
+    '화5,6(R102),목0(Z100)', 1, '정유선', 'B-러닝/일반교양', 'general35','general'
+),
+#HALF9330 건강과학의이해와실천
+(
+    'HALF9330', '전체', '교선', NULL, '건강과학의이해와실천', 3, 3, 0, 
+    '월7,8,9(UB209)', 1, '백성수,이성호,최현선', '일반교양', 'general36','general'
+),
+#HALF9332 혁신적기술과경영
+(
+    'HALF9332', '전체', '교선', NULL, '혁신적기술과경영', 3, 3, 0, 
+    '목7,8,9(SB001)', 1, '김성재', '일반교양', 'general37','general'
+),
+#HALF9339 일본사회문화의이해
+(
+    'HALF9339', '전체', '교선', NULL, '일본사회문화의이해', 3, 3, 0, 
+    '화10,11,12(N303) ', 1, '성윤아', '일반교양', 'general38','general'
+),
+#HALF9345 환경과미래사회
+(
+    'HALF9345', '전체', '교선', NULL, '환경과미래사회', 3, 3, 0, 
+    '목7,8,9(N201)', 1, '홍세령', '일반교양', 'general39','general'
+),
+#HALF9347 프로그래밍디자인
+(
+    'HALF9347', '전체', '교선', NULL, '프로그래밍디자인', 3,0, 3, 
+    '화4,5,6(G311)', 1, '문성현', '일반교양', 'general40','general'
+),
+#HALF9348 자료시각화 
+(
+    'HALF9348', '전체', '교선', NULL, '자료시각화', 2, 2, 0, 
+    '수3,4(T202)', 1, '홍세령', '일반교양', 'general41','general'
+),
+#HALF9351 미디어와콘텐츠창작
+(
+    'HALF9351', '전체', '교선', NULL, '미디어와콘텐츠창작', 3, 3, 0, 
+    '목5,6(N202),목0(Z300)', 1, '장선희', 'B-러닝/일반교양', 'general42','general'
+),
+#HALF9359 현대사회와행정
+(
+    'HALF9359', '전체', '교선', NULL, '현대사회와행정', 3, 3, 0, 
+    '목7,8,9(T406)', 1, '김상우', '일반교양', 'general43','general'
+),
+#HALF9360 국제사회와인권 
+(
+    'HALF9360', '전체', '교선', NULL, '국제사회와인권', 3, 3, 0, 
+    '화5,6(T405),목6(T405)', 1, '김상우', '일반교양', 'general44','general'
+),
+#HALF9363 영화로보는현대사
+(
+    'HALF9363', '전체', '교선', NULL, '영화로보는현대사', 3, 3, 0, 
+    '수6(N303),금3,4(N303)', 1, '김평강', '일반교양', 'general45','general'
+),
+#HALF9364 세계유산의가치탐색
+(
+    'HALF9364', '전체', '교선', NULL, '세계유산의가치탐색', 3, 3, 0, 
+    '수7,8,9(R103)', 1, '김일림', '일반교양', 'general46','general'
+),
+#HALF9366 공간환경과인간
+(
+    'HALF9366', '전체', '교선', NULL, '공간환경과인간', 3, 3, 0, 
+    '월5(N303),수5,6(N202)', 1, '이윤재', '일반교양', 'general47','general'
+),
+#HALF9375 스포츠와법
+(
+    'HALF9375', '전체', '교선', NULL, '스포츠와법', 3, 3, 0, 
+    '월1,2(N202),화2(N202)', 1, '김용훈,유상건', '일반교양', 'general48','general'
+),
+#HALF9376 인간발달의이해
+(
+    'HALF9376', '전체', '교선', NULL, '인간발달의이해', 3, 3, 0, 
+    '월10,11,12(N203)', 1, '서주현', 'E-러닝/3-4학년만수강가능/일반교양', 'general49','general'
+),
+#HALF9377 4차산업혁명과회계학
+(
+    'HALF9377', '전체', '교선', NULL, '4차산업혁명과회계학', 3, 3, 0, 
+    '금7,8,9(T406)', 1, '조일형', '일반교양', 'general50','general'
+),
+#HALF9390 사회심리와인간관계 
+(
+    'HALF9390', '전체', '교선', NULL, '사회심리와인간관계', 3, 3, 0, 
+    '월7,8,9(T306)', 1, '이형국', '일반교양', 'general51','general'
+),
+#HALF9393 러시아어입문
+(
+    'HALF9393', '전체', '교선', NULL, '러시아어입문', 2, 2, 0, 
+    '목1,2(T306)', 1, '박혜옥', '일반교양', 'general52','general'
+),
+(
+    'HALF9393', '전체', '교선', NULL, '러시아어입문', 2, 2, 0, 
+    '목3,4(T306)', 2, '박혜옥', '일반교양', 'general53','general'
+),
+#HALF9399 빅데이터를통한삶의이해
+(
+    'HALF9399', '전체', '교선', NULL, '빅데이터를통한삶의이해', 3,1,2, 
+    '화7,8,9(G307)', 1, '정지영', '1학년수강불가/일반교양', 'general54','general'
+),
+#HALF9400 대중음악제작과엔터테인먼트비즈니스
+(
+    'HALF9400', '전체', '교선', NULL, '대중음악제작과엔터테인먼트비즈니스', 3,0,0, 
+    '월7,8,9(R103)', 1, '정재윤', '일반교양', 'general55','general'
+),
+#HALF9401 커리어디자인
+(
+    'HALF9401', '전체', '교선', NULL, '커리어디자인', 2,2,0, 
+    '수1,2(T306)', 1, '이형국', '일반교양', 'general56','general'
+),
+(
+    'HALF9401', '전체', '교선', NULL, '커리어디자인', 2,2,0, 
+    '월7,8(T305)', 2, '정유선', '일반교양', 'general57','general'
+),
+#HALF9402 성격심리와자기이해
+(
+    'HALF9402', '전체', '교선', NULL, '성격심리와자기이해', 2,2,0, 
+    '월5,6(T306)', 1, '이형국', '일반교양', 'general58','general'
+),
+(
+    'HALF9402', '전체', '교선', NULL, '성격심리와자기이해', 2,2,0, 
+    '수5,6(T306)', 2, '이형국', '일반교양', 'general59','general'
+),
+
+#HALF9406 인간행동의심리적이해
+(
+    'HALF9406', '전체', '교선', NULL, '인간행동의심리적이해', 3,3,0, 
+    '월2,3,4(T401)', 1, '한규은', '일반교양', 'general60','general'
+),
+#HALF9415 청년창업
+(
+    'HALF9415', '전체', '교선', NULL, '청년창업', 2,2,0, 
+    '월7(R101),월0(Z100)', 1, '이승배', 'B-러닝/일반교양', 'general61','general'
+),
+#HALF9416 대화와인간관계
+(
+    'HALF9416', '전체', '교선', NULL, '대화와인간관계', 3,3,0, 
+    '월10,11,12(N201)', 1, '전정미', 'E-러닝/3-4학년만수강가능/일반교양', 'general62','general'
+),
+#HALF9417 디지털혁명시대를선도하는심리역량
+(
+    'HALF9417', '전체', '교선', NULL, '디지털혁명시대를선도하는심리역량', 3,3,0, 
+    '금4,5,6(T305) ', 1, '손인수,최준원', '일반교양', 'general63','general'
+),
+#HALF9418 부와권력의교환
+(
+    'HALF9418', '전체', '교선', NULL, '부와권력의교환', 3,3,0, 
+    '목4,5,6(N303)', 1, '김동호,김은수', '일반교양', 'general64','general'
+),
+#HALF9422 한국의세계유산 
+(
+    'HALF9422', '전체', '교선', NULL, '한국의세계유산', 3,3,0, 
+    '목10,11,12(T306) ', 1, '장영숙', 'E-러닝/3-4학년만수강가능/일반교양', 'general65','general'
+),
+#HALF9424 발명과창업
+(
+    'HALF9424', '전체', '교선', NULL, '발명과창업', 3,3,0, 
+    '월10,11,12(T401)', 1, '왕한호', 'E-러닝/3-4학년만수강가능/일반교양', 'general66','general'
+),
+#HALF9442 미래유망직업탐색
+(
+    'HALF9442', '전체', '교선', NULL, '미래유망직업탐색', 1,1,0, 
+    '금10(Z300)', 1, '권지은,김병재', 'E-러닝/3-4학년만수강가능/일반교양', 'general67','general'
+),
+#HALF9446 공동체가치와사회문제해결
+(
+    'HALF9446', '전체', '교선', NULL, '공동체가치와사회문제해결', 3,3,0, 
+    '화7,8,9(R201)', 1, '김일림,방영심,홍세령', '일반교양', 'general68','general'
+),
+#HALF9449 심화영어듣기
+(
+    'HALF9449', '전체', '교선', NULL, '심화영어듣기', 3,3,0, 
+    '목7,8,9(R201)', 1, '이연숙', '일반교양', 'general69','general'
+),
+#HALR1046사회적문제해결과디자인씽킹
+(
+    'HALR1046', '전체', '교선', NULL, '사회적문제해결과디자인씽킹', 2,2,0, 
+    '화5,6(T303)', 1, '최영근', '일반교양', 'general70','general'
+), 
+#HALR1236 사회봉사
+(
+    'HALR1236', '전체', '교선', NULL, '사회봉사', 1,0,1,
+    '수10(T303) ', 1, '김기태', '경영경제대학전용분반/일반교양', 'general71','general'
+), 
+(
+    'HALR1236', '전체', '교선', NULL, '사회봉사', 1,0,1,
+    '화3(N205)', 2, '김민한', '인문사회과학대학전용분반/일반교양', 'general72','general'
+), 
+(
+    'HALR1236', '전체', '교선', NULL, '사회봉사', 1,0,1,
+    '화7(D102) ', 3, '이정아', '문화예술대학전용분반/일반교양', 'general73','general'
+), 
+(
+    'HALR1236', '전체', '교선', NULL, '사회봉사', 1,0,1,
+    '수11(G416)', 4, '조옥희', '융합공과대학전용분반/일반교양', 'general74','general'
+), 
+
+
+#한양대학점인정컨소시엄E-러닝
+
+#HALH0002 상상과창조
+(
+    'HALH0002', '전체', '교선', NULL, '상상과창조',3,3,0,
+    '일0,1,2(Z300)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general75','general'
+), 
+#HALH0010 문화콘텐츠스토리텔링전략
+(
+    'HALH0010', '전체', '교선', NULL, '문화콘텐츠스토리텔링전략',3,3,0,
+    '일3,4,5(Z300)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general76','general'
+), 
+#HALH0014 문화기술과사회변동
+(
+    'HALH0014', '전체', '교선', NULL, '문화기술과사회변동',3,3,0,
+    '일6,7,8(Z300)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general77','general'
+), 
+#HALH0015 문화콘텐츠마케팅전략의수립과집행
+(
+    'HALH0015', '전체', '교선', NULL, '문화콘텐츠마케팅전략의수립과집행',3,3,0,
+    '일9,10,11(Z300)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general78','general'
+), 
+#HALH0020 기업경영과비즈니스전략
+(
+    'HALH0020', '전체', '교선', NULL, '기업경영과비즈니스전략',3,3,0,
+    '일12,13,14(Z300)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general79','general'
+), 
+#HALH0021 생태친화적기업경영
+(
+    'HALH0021', '전체', '교선', NULL, '생태친화적기업경영',3,3,0,
+    '일0,1,2(Z200)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general80','general'
+), 
+#HALH0022 색채심리와현대생활 
+(
+    'HALH0022', '전체', '교선', NULL, '색채심리와현대생활',3,3,0,
+    '일3,4,5(Z200)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general81','general'
+), 
+#HALH0023 21세기기업의인재상 
+(
+    'HALH0023', '전체', '교선', NULL, '21세기기업의인재상',3,3,0,
+    '일6,7,8(Z200)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general82','general'
+), 
+#HALH0027 채움과 비움: 나이듦의 인문학적 이해
+(
+    'HALH0027', '전체', '교선', NULL, '채움과 비움: 나이듦의 인문학적 이해',3,3,0,
+    '일9,10,11(Z200)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general83','general'
+), 
+#HALH0028 감성정부론
+(
+    'HALH0028', '전체', '교선', NULL, '감성정부론',3,3,0,
+    '일6,7,8(Z100)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general84','general'
+), 
+#HALH0029 비즈니스모델디자인과린스타트업활동
+(
+    'HALH0029', '전체', '교선', NULL, '비즈니스모델디자인과린스타트업활동',3,3,0,
+    '일12,13,14(Z200)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general85','general'
+), 
+#HALH0030 인공지능
+(
+    'HALH0030', '전체', '교선', NULL, '인공지능',3,3,0,
+    '목0,6,7(R104)', 1, '정수열', '한양대학교HI-LIVE컨소시엄/B-러닝/일반교양', 'general86','general'
+), 
+#HALH0033 한국사회와문화
+(
+    'HALH0033', '전체', '교선', NULL, '한국사회와문화',3,3,0,
+    '일0,1,2(Z100)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general87','general'
+), 
+#HALH0034 외국인학생을위한실용한국어 
+(
+    'HALH0034', '전체', '교선', NULL, '외국인학생을위한실용한국어',3,3,0,
+    '일3,4,5(Z100)', 1, '정수열', '한양대학교학점인정컨소시엄/E-러닝/일반교양', 'general88','general'
+), 
+
+
+
+
+
+#HALF9450 국제사회에서의법과정치(2024데이터 없음)
+#HARO1002 국가안보론(2024데이터 없음)
+#HARO1003 무기체계론(2024데이터 없음)
+#HARO1004 전쟁사(2024데이터 없음)
+;
+

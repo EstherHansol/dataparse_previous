@@ -259,61 +259,61 @@
   <subject id="6294036" code="HALF9438-2" name="인간과시간" professor="이철의" type="교필" grade="전체" time="목3,4(T405)" place="" credit="2" popular="81" target="" notice="" lectureId="2546264" lectureRate="2.5" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="3" start="132" end="156" place="T405"/>
   </subject>
-  <subject id="6294037" code="HALR1032-1" name="사고와표현" professor="송인성" type="교필" grade="전체" time="월B(R205) 화C(R205)" place="" credit="3" popular="44" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="1034979" lectureRate="4.14" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294037" code="HALR1032-1" name="사고와표현" professor="송인성" type="교필" grade="전체" time="월B(R205) 화C(R205)" place="" credit="3" popular="44" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="1034979" lectureRate="4.14" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="114" end="129" place="R205"/>
     <timeplace day="1" start="132" end="147" place="R205"/>
   </subject>
-  <subject id="6294038" code="HALR1032-2" name="사고와표현" professor="강미정" type="교필" grade="전체" time="월B(SB001) 화C(SB001)" place="" credit="3" popular="33" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2251686" lectureRate="3.5" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294038" code="HALR1032-2" name="사고와표현" professor="강미정" type="교필" grade="전체" time="월B(SB001) 화C(SB001)" place="" credit="3" popular="33" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2251686" lectureRate="3.5" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="114" end="129" place="SB001"/>
     <timeplace day="1" start="132" end="147" place="SB001"/>
   </subject>
-  <subject id="6294039" code="HALR1032-3" name="사고와표현" professor="윤태식" type="교필" grade="전체" time="월B(R101) 수C(R101)" place="" credit="3" popular="15" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="481032" lectureRate="4.47" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294039" code="HALR1032-3" name="사고와표현" professor="윤태식" type="교필" grade="전체" time="월B(R101) 수C(R101)" place="" credit="3" popular="15" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="481032" lectureRate="4.47" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="114" end="129" place="R101"/>
     <timeplace day="2" start="132" end="147" place="R101"/>
   </subject>
-  <subject id="6294040" code="HALR1032-4" name="사고와표현" professor="박선애" type="교필" grade="전체" time="월B(SB002) 수C(SB002)" place="" credit="3" popular="4" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2251687" lectureRate="2.25" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294040" code="HALR1032-4" name="사고와표현" professor="박선애" type="교필" grade="전체" time="월B(SB002) 수C(SB002)" place="" credit="3" popular="4" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2251687" lectureRate="2.25" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="114" end="129" place="SB002"/>
     <timeplace day="2" start="132" end="147" place="SB002"/>
   </subject>
-  <subject id="6294041" code="HALR1032-5" name="사고와표현" professor="송인성" type="교필" grade="전체" time="화B(R201) 수C(R201)" place="" credit="3" popular="14" target="" notice="사범대학 전용분반(1~2학년)" lectureId="1034979" lectureRate="4.17" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294041" code="HALR1032-5" name="사고와표현" professor="송인성" type="교필" grade="전체" time="화B(R201) 수C(R201)" place="" credit="3" popular="14" target="" notice="사고와표현 사범대학 전용분반(1~2학년)" lectureId="1034979" lectureRate="4.17" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="R201"/>
     <timeplace day="2" start="132" end="147" place="R201"/>
   </subject>
-  <subject id="6294042" code="HALR1032-6" name="사고와표현" professor="방영심" type="교필" grade="전체" time="수B(R101) 금C(R101)" place="" credit="3" popular="7" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="76504" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294042" code="HALR1032-6" name="사고와표현" professor="방영심" type="교필" grade="전체" time="수B(R101) 금C(R101)" place="" credit="3" popular="7" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="76504" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="114" end="129" place="R101"/>
     <timeplace day="4" start="132" end="147" place="R101"/>
   </subject>
-  <subject id="6294043" code="HALR1032-7" name="사고와표현" professor="전명옥" type="교필" grade="전체" time="화B(A203-B) 목C(A203-B)" place="" credit="3" popular="2" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2686044" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294043" code="HALR1032-7" name="사고와표현" professor="전명옥" type="교필" grade="전체" time="화B(A203-B) 목C(A203-B)" place="" credit="3" popular="2" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2686044" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="A203-B"/>
     <timeplace day="3" start="132" end="147" place="A203-B"/>
   </subject>
-  <subject id="6294044" code="HALR1032-8" name="사고와표현" professor="방영심" type="교필" grade="전체" time="화B(R101) 목C(R101)" place="" credit="3" popular="18" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="76504" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294044" code="HALR1032-8" name="사고와표현" professor="방영심" type="교필" grade="전체" time="화B(R101) 목C(R101)" place="" credit="3" popular="18" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="76504" lectureRate="4.12" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="R101"/>
     <timeplace day="3" start="132" end="147" place="R101"/>
   </subject>
-  <subject id="6294045" code="HALR1032-9" name="사고와표현" professor="신윤경" type="교필" grade="전체" time="화B(R202) 목C(R202)" place="" credit="3" popular="7" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2378694" lectureRate="4.5" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294045" code="HALR1032-9" name="사고와표현" professor="신윤경" type="교필" grade="전체" time="화B(R202) 목C(R202)" place="" credit="3" popular="7" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2378694" lectureRate="4.5" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="R202"/>
     <timeplace day="3" start="132" end="147" place="R202"/>
   </subject>
-  <subject id="6294046" code="HALR1032-10" name="사고와표현" professor="박선애" type="교필" grade="전체" time="화B(SB002) 목C(SB002)" place="" credit="3" popular="6" target="" notice="선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2251687" lectureRate="2.25" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294046" code="HALR1032-10" name="사고와표현" professor="박선애" type="교필" grade="전체" time="화B(SB002) 목C(SB002)" place="" credit="3" popular="6" target="" notice="사고와표현 선접수 후 분반을 위한 예비분반, 본인소속 단과대 분반신청 바람." lectureId="2251687" lectureRate="2.25" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="SB002"/>
     <timeplace day="3" start="132" end="147" place="SB002"/>
   </subject>
-  <subject id="6294047" code="HALR1032-11" name="사고와표현" professor="방영심" type="교필" grade="전체" time="수10,11,12(R101)" place="" credit="3" popular="57" target="" notice="재수강 및 미수강 학생 전용분반(3~4학년)" lectureId="76504" lectureRate="4.13" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294047" code="HALR1032-11" name="사고와표현" professor="방영심" type="교필" grade="전체" time="수10,11,12(R101)" place="" credit="3" popular="57" target="" notice="사고와표현 재수강 및 미수강 학생 전용분반(3~4학년)" lectureId="76504" lectureRate="4.13" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="216" end="252" place="R101"/>
   </subject>
-  <subject id="6294048" code="HALR1032-12" name="사고와표현" professor="송인성" type="교필" grade="전체" time="수10,11,12(R203)" place="" credit="3" popular="23" target="" notice="인문사회과학대학, 한일문화콘텐츠 전공 전용분반(1~2학년)" lectureId="1034979" lectureRate="4.18" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294048" code="HALR1032-12" name="사고와표현" professor="송인성" type="교필" grade="전체" time="수10,11,12(R203)" place="" credit="3" popular="23" target="" notice="사고와표현 인문사회과학대학, 한일문화콘텐츠 전공 전용분반(1~2학년)" lectureId="1034979" lectureRate="4.18" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="216" end="252" place="R203"/>
   </subject>
-  <subject id="6294049" code="HALR1032-13" name="사고와표현" professor="" type="교필" grade="전체" time="월B(Z100) 수C(Z100)" place="" credit="3" popular="90" target="" notice="문화예술대학 전용분반(1~2학년)" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294049" code="HALR1032-13" name="사고와표현" professor="" type="교필" grade="전체" time="월B(Z100) 수C(Z100)" place="" credit="3" popular="90" target="" notice="사고와표현 문화예술대학 전용분반(1~2학년)" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="114" end="129" place="Z100"/>
     <timeplace day="2" start="132" end="147" place="Z100"/>
   </subject>
-  <subject id="6294050" code="HALR1032-14" name="사고와표현" professor="" type="교필" grade="전체" time="수B(Z100) 금C(Z100)" place="" credit="3" popular="36" target="" notice="경영경제대학 전용분반(1~2학년)" lectureId="108751" lectureRate="4.27" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294050" code="HALR1032-14" name="사고와표현" professor="" type="교필" grade="전체" time="수B(Z100) 금C(Z100)" place="" credit="3" popular="36" target="" notice="사고와표현 경영경제대학 전용분반(1~2학년)" lectureId="108751" lectureRate="4.27" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="114" end="129" place="Z100"/>
     <timeplace day="4" start="132" end="147" place="Z100"/>
   </subject>
-  <subject id="6294051" code="HALR1032-15" name="사고와표현" professor="" type="교필" grade="전체" time="화B(Z100) 목C(Z100)" place="" credit="3" popular="152" target="" notice="융합공과대학 전용분반(1~2학년)" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6294051" code="HALR1032-15" name="사고와표현" professor="" type="교필" grade="전체" time="화B(Z100) 목C(Z100)" place="" credit="3" popular="152" target="" notice="사고와표현 융합공과대학 전용분반(1~2학년)" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="Z100"/>
     <timeplace day="3" start="132" end="147" place="Z100"/>
   </subject>

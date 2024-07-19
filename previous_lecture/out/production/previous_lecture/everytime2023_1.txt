@@ -360,39 +360,39 @@
   <subject id="6011047" code="HALF9438-2" name="인간과시간" professor="이철의" type="교필" grade="전체" time="수5,6(R103)" place="" credit="2" popular="122" target="" notice="" lectureId="2546264" lectureRate="2.52" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="156" end="180" place="R103"/>
   </subject>
-  <subject id="6011048" code="HALR1032-16" name="사고와표현" professor="송인성" type="교필" grade="전체" time="수11,12,13(R201)" place="" credit="3" popular="62" target="" notice="융합경영학과 전용 분반" lectureId="1034979" lectureRate="4.17" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011048" code="HALR1032-16" name="사고와표현" professor="송인성" type="교필" grade="전체" time="수11,12,13(R201)" place="" credit="3" popular="62" target="" notice="사고와표현 융합경영학과 전용 분반" lectureId="1034979" lectureRate="4.17" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="228" end="264" place="R201"/>
   </subject>
-  <subject id="6011049" code="HALR1032-17" name="사고와표현" professor="방영심" type="교필" grade="전체" time="수11,12,13(R101)" place="" credit="3" popular="63" target="" notice="재수강 및 미수강 학생 전용 분반(3~4학년)" lectureId="76504" lectureRate="4.13" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011049" code="HALR1032-17" name="사고와표현" professor="방영심" type="교필" grade="전체" time="수11,12,13(R101)" place="" credit="3" popular="63" target="" notice="사고와표현 재수강 및 미수강 학생 전용 분반(3~4학년)" lectureId="76504" lectureRate="4.13" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="228" end="264" place="R101"/>
   </subject>
-  <subject id="6011050" code="HALR1032-18" name="사고와표현" professor="" type="교필" grade="전체" time="월B(Z200) 수C(Z200)" place="" credit="3" popular="215" target="" notice="인문사회과학대 학, 한일문화콘텐츠 전공 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.28" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011050" code="HALR1032-18" name="사고와표현" professor="" type="교필" grade="전체" time="월B(Z200) 수C(Z200)" place="" credit="3" popular="215" target="" notice="사고와표현 인문사회과학대 학, 한일문화콘텐츠 전공 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.28" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="114" end="129" place="Z200"/>
     <timeplace day="2" start="132" end="147" place="Z200"/>
   </subject>
-  <subject id="6011051" code="HALR1032-19" name="사고와표현" professor="" type="교필" grade="전체" time="화B(Z200) 목C(Z200)" place="" credit="3" popular="133" target="" notice="사범대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011051" code="HALR1032-19" name="사고와표현" professor="" type="교필" grade="전체" time="화B(Z200) 목C(Z200)" place="" credit="3" popular="133" target="" notice="사고와표현 사범대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="Z200"/>
     <timeplace day="3" start="132" end="147" place="Z200"/>
   </subject>
-  <subject id="6011052" code="HALR1032-20" name="사고와표현" professor="" type="교필" grade="전체" time="월B(Z200) 화C(Z200)" place="" credit="3" popular="202" target="" notice="경영경제대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.28" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011052" code="HALR1032-20" name="사고와표현" professor="" type="교필" grade="전체" time="월B(Z200) 화C(Z200)" place="" credit="3" popular="202" target="" notice="사고와표현 경영경제대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.28" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="114" end="129" place="Z200"/>
     <timeplace day="1" start="132" end="147" place="Z200"/>
   </subject>
-  <subject id="6011053" code="HALR1032-21" name="사고와표현" professor="" type="교필" grade="전체" time="수B(Z200) 금C(Z200)" place="" credit="3" popular="334" target="" notice="융합공과대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011053" code="HALR1032-21" name="사고와표현" professor="" type="교필" grade="전체" time="수B(Z200) 금C(Z200)" place="" credit="3" popular="334" target="" notice="사고와표현 융합공과대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="114" end="129" place="Z200"/>
     <timeplace day="4" start="132" end="147" place="Z200"/>
   </subject>
-  <subject id="6011054" code="HALR1032-22" name="사고와표현" professor="" type="교필" grade="전체" time="화B(Z200) 수C(Z200)" place="" credit="3" popular="147" target="" notice="문화예술대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011054" code="HALR1032-22" name="사고와표현" professor="" type="교필" grade="전체" time="화B(Z200) 수C(Z200)" place="" credit="3" popular="147" target="" notice="사고와표현 문화예술대학 전용 분반(1~2학년)/ 추후 분반 배정" lectureId="108751" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="114" end="129" place="Z200"/>
     <timeplace day="2" start="132" end="147" place="Z200"/>
   </subject>
-  <subject id="6011055" code="HALR1040-1" name="창의적문제해결" professor="이승배" type="교필" grade="전체" time="화3,4(T406)" place="" credit="2" popular="102" target="" notice="" lectureId="481093" lectureRate="4.21" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011055" code="HALR1040-1" name="창의적문제해결" professor="이승배" type="교필" grade="전체" time="화3,4(T406)" place="" credit="2" popular="102" target="" notice="창의적문제해결영역" lectureId="481093" lectureRate="4.21" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="132" end="156" place="T406"/>
   </subject>
-  <subject id="6011056" code="HALR1040-2" name="창의적문제해결" professor="이승배" type="교필" grade="전체" time="화5,6(T406)" place="" credit="2" popular="121" target="" notice="" lectureId="481093" lectureRate="4.21" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011056" code="HALR1040-2" name="창의적문제해결" professor="이승배" type="교필" grade="전체" time="화5,6(T406)" place="" credit="2" popular="121" target="" notice="창의적문제해결영역" lectureId="481093" lectureRate="4.21" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="1" start="156" end="180" place="T406"/>
   </subject>
-  <subject id="6011057" code="HALR1040-3" name="창의적문제해결" professor="오철" type="교필" grade="전체" time="목1,2(T406)" place="" credit="2" popular="107" target="" notice="" lectureId="382375" lectureRate="4.58" misc1="" misc2="" misc3="" misc4="">
+  <subject id="6011057" code="HALR1040-3" name="창의적문제해결" professor="오철" type="교필" grade="전체" time="목1,2(T406)" place="" credit="2" popular="107" target="" notice="창의적문제해결영역" lectureId="382375" lectureRate="4.58" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="3" start="108" end="132" place="T406"/>
   </subject>
   <subject id="6011058" code="HALR1230-1" name="컴퓨테이셔널씽킹" professor="이재학" type="교필" grade="전체" time="화1,2(N201)" place="" credit="2" popular="77" target="" notice="" lectureId="1367385" lectureRate="3.83" misc1="" misc2="" misc3="" misc4="">

@@ -1,0 +1,270 @@
+Previous 교필 과목 update 문으로 따로 넣어야할 것(notice 정보로 파싱이 안됨)
+
+
+UPDATE previous_lecture
+SET subject_type = 'thinkingAndExpression'
+WHERE lect_name like '사고와표현';
+
+
+UPDATE previous_lecture
+SET subject_type = 'EFAP'
+WHERE lect_name = 'English Foundations(Speaking and Listening)';
+
+UPDATE previous_lecture
+SET subject_type = 'EFAP'
+WHERE lect_name = 'English Foundations(Reading and Writing)';
+
+UPDATE previous_lecture
+SET subject_type = 'EFAP'
+WHERE lect_name = 'EnglishFoundations';
+
+UPDATE previous_lecture
+SET subject_type = 'EFAP'
+WHERE lect_name = 'EnglishForAcademicPurposes';
+
+
+UPDATE previous_lecture
+SET subject_type = 'computingdata'
+WHERE lect_name like '컴퓨팅사고와문제해결Ⅰ';
+
+UPDATE previous_lecture
+SET subject_type = 'computingdata'
+WHERE lect_name like '컴퓨팅사고와문제해결Ⅱ';
+
+UPDATE previous_lecture
+SET subject_type = 'computingdata'
+WHERE lect_name = '컴퓨팅사고와게임디자인';
+
+
+UPDATE previous_lecture
+SET subject_type = 'computingdata'
+WHERE lect_name = '컴퓨팅사고와데이터의이해';
+
+UPDATE previous_lecture
+SET subject_type = 'basicMath'
+WHERE lect_name = '기초미적분학';
+
+UPDATE previous_lecture
+SET subject_type = 'basicMath'
+WHERE lect_name = '기초수학';
+
+UPDATE previous_lecture
+SET subject_type = 'service'
+WHERE lect_name LIKE '사회봉사%';
+
+
+#상명careerstart가 문제임. 사라진 교필 기초교양. 어떻게 데이터 넣을 것인가?
+UPDATE previous_lecture
+SET subject_type = 'smcareer'
+WHERE lect_name = '상명CareerStart';
+
+UPDATE previous_lecture
+SET subject_type = 'smcareer'
+WHERE lect_name = '상명정신과윤리적삶';
+#상명정신과윤리적삶이랑 상커스랑 같은건지 재확인 필요
+
+
+UPDATE previous_lecture
+SET subject_type = 'RAP'
+WHERE lect_name LIKE '교양과인성%';
+
+
+#
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='융복합의이해와실제2';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='융복합의이해와실제';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='글로벌문화와문화콘텐츠';
+
+UPDATE previous_lecture
+SET subject_type = 'ethicalPracticeSkill'
+WHERE lect_name='현대사회의삶과윤리';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='리버럴아츠(LAC)로배우는융복합';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='리버럴아츠(LAC)로배우는융복합';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='세계종교와문화';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='공간과문명,인간';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='소재와인류문명';
+
+UPDATE previous_lecture
+SET subject_type = 'ethicalPracticeSkill'
+WHERE lect_name='인터넷윤리';
+
+UPDATE previous_lecture
+SET subject_type = 'creativeProblemSolvingSkill'
+WHERE lect_name='과학적상상력과예술';
+
+UPDATE previous_lecture
+SET subject_type = 'ethicalPracticeSkill'
+WHERE lect_name='호모엠파티쿠스(고통받는인간)';
+
+
+UPDATE previous_lecture
+SET subject_type = 'creativeProblemSolvingSkill'
+WHERE lect_name='창의적문제해결';
+
+
+UPDATE previous_lecture
+SET subject_type = 'creativeProblemSolvingSkill'
+WHERE lect_name='창의적사고의프레임워크';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='문화다양성과글로벌시민';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='과학기술의발달과사회';
+
+UPDATE previous_lecture
+SET subject_type = 'creativeProblemSolvingSkill'
+WHERE lect_name='컴퓨테이셔널씽킹';
+
+UPDATE previous_lecture
+SET subject_type = 'creativeProblemSolvingSkill'
+WHERE lect_name='디자인씽킹';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='글로벌시대지역의이해';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='국제사회와인권';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='알고리즘과게임콘텐츠';
+
+
+UPDATE previous_lecture
+SET subject_type = 'humanity'
+WHERE lect_name='철학으로문화읽기';
+
+
+UPDATE previous_lecture
+SET subject_type = 'humanity'
+WHERE lect_name='세계문화교류';
+
+
+UPDATE previous_lecture
+SET subject_type = 'bridge'
+WHERE lect_name='판단과의사결정';
+
+
+
+UPDATE previous_lecture
+SET subject_type = 'expertiseResearchSkill'
+WHERE lect_name='이미지시대의테크놀로지와예술';
+
+UPDATE previous_lecture
+SET subject_type = 'expertiseResearchSkill'
+WHERE lect_name='빅히스토리와인공지능';
+
+UPDATE previous_lecture
+SET subject_type = 'creativeProblemSolvingSkill'
+WHERE lect_name='상상속의아이디어';
+
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='K-Culture를통해보는예술의산업가치';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='융합창의수학';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='다른곳의세계와나';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='문화감수성의이해와실천';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='문화다양성과미디어';
+
+UPDATE previous_lecture
+SET subject_type = 'diversityRespectSkill'
+WHERE lect_name='치유와공간';
+
+UPDATE previous_lecture
+SET subject_type = 'ethicalPracticeSkill'
+WHERE lect_name='과학기술자의직업윤리';
+
+UPDATE previous_lecture
+SET subject_type = 'ethicalPracticeSkill'
+WHERE lect_name='인간과시간';
+
+UPDATE previous_lecture
+SET subject_type = 'expertiseResearchSkill'
+WHERE lect_name='과학적사고와탐구';
+
+UPDATE previous_lecture
+SET subject_type = 'expertiseResearchSkill'
+WHERE lect_name='예술,비즈니스,문화와함께하는지식재산권법입문';
+
+UPDATE previous_lecture
+SET subject_type = 'interdisciplinarySkill'
+WHERE lect_name='색채심리학';
+
+
+
+
+#디비 오류 정정
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='결혼과사회';
+
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='인간과생태환경';
+
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='현대생활과디자인';
+
+
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='논리와비판적사고';
+
+
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='정보윤리와보안';
+
+
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='의식주와소비문화';
+
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='리터러시탐구와응용';
+
+UPDATE previous_lecture
+SET cmp_div = '교선'
+WHERE lect_name='사회적문제해결과디자인씽킹';

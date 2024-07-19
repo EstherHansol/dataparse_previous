@@ -3579,102 +3579,102 @@
   <subject id="4989858" code="HALH0031-1" name="동아시아문화도시콘텐츠의이해" professor="성윤아" type="교선" grade="9" time="목10,11,12(R202)" place="" credit="3" popular="62" target="" notice="" lectureId="1614244" lectureRate="3.81" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="3" start="216" end="252" place="R202"/>
   </subject>
-  <subject id="4989859" code="HALR1032-1" name="사고와표현" professor="송인성" type="교필" grade="1" time="월3,4(R101) 수3(R101)" place="" credit="3" popular="45" target="" notice="" lectureId="1034979" lectureRate="4.06" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989859" code="HALR1032-1" name="사고와표현" professor="송인성" type="교필" grade="1" time="월3,4(R101) 수3(R101)" place="" credit="3" popular="45" target="" notice="사고와표현" lectureId="1034979" lectureRate="4.06" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="R101"/>
     <timeplace day="2" start="132" end="144" place="R101"/>
   </subject>
-  <subject id="4989860" code="HALR1032-10" name="사고와표현" professor="송인성" type="교필" grade="1" time="월7,8(R101) 수5(R101)" place="" credit="3" popular="27" target="" notice="" lectureId="1034979" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989860" code="HALR1032-10" name="사고와표현" professor="송인성" type="교필" grade="1" time="월7,8(R101) 수5(R101)" place="" credit="3" popular="27" target="" notice="사고와표현" lectureId="1034979" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="R101"/>
     <timeplace day="2" start="156" end="168" place="R101"/>
   </subject>
-  <subject id="4989861" code="HALR1032-11" name="사고와표현" professor="방영심" type="교필" grade="1" time="월7,8(N407) 수5(N407)" place="" credit="3" popular="23" target="" notice="" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989861" code="HALR1032-11" name="사고와표현" professor="방영심" type="교필" grade="1" time="월7,8(N407) 수5(N407)" place="" credit="3" popular="23" target="" notice="사고와표현" lectureId="76504" lectureRate="4.02" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="N407"/>
     <timeplace day="2" start="156" end="168" place="N407"/>
   </subject>
-  <subject id="4989862" code="HALR1032-12" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월7,8(N504) 수5(N504)" place="" credit="3" popular="32" target="" notice="" lectureId="481013" lectureRate="3.77" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989862" code="HALR1032-12" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월7,8(N504) 수5(N504)" place="" credit="3" popular="32" target="" notice="사고와표현" lectureId="481013" lectureRate="3.77" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="N504"/>
     <timeplace day="2" start="156" end="168" place="N504"/>
   </subject>
-  <subject id="4989863" code="HALR1032-13" name="사고와표현" professor="전영옥" type="교필" grade="1" time="수6(N501) 금3,4(N501)" place="" credit="3" popular="45" target="" notice="" lectureId="120353" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989863" code="HALR1032-13" name="사고와표현" professor="전영옥" type="교필" grade="1" time="수6(N501) 금3,4(N501)" place="" credit="3" popular="45" target="" notice="사고와표현" lectureId="120353" lectureRate="4.31" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N501"/>
     <timeplace day="4" start="132" end="156" place="N501"/>
   </subject>
-  <subject id="4989864" code="HALR1032-14" name="사고와표현" professor="송인성" type="교필" grade="1" time="수6(R101) 금3,4(R101)" place="" credit="3" popular="31" target="" notice="" lectureId="1034979" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989864" code="HALR1032-14" name="사고와표현" professor="송인성" type="교필" grade="1" time="수6(R101) 금3,4(R101)" place="" credit="3" popular="31" target="" notice="사고와표현" lectureId="1034979" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="R101"/>
     <timeplace day="4" start="132" end="156" place="R101"/>
   </subject>
-  <subject id="4989865" code="HALR1032-15" name="사고와표현" professor="방영심" type="교필" grade="1" time="수6(N407) 금3,4(N407)" place="" credit="3" popular="40" target="" notice="" lectureId="76504" lectureRate="4.1" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989865" code="HALR1032-15" name="사고와표현" professor="방영심" type="교필" grade="1" time="수6(N407) 금3,4(N407)" place="" credit="3" popular="40" target="" notice="사고와표현" lectureId="76504" lectureRate="4.1" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N407"/>
     <timeplace day="4" start="132" end="156" place="N407"/>
   </subject>
-  <subject id="4989866" code="HALR1032-16" name="사고와표현" professor="전영주" type="교필" grade="1" time="수6(N504) 금3,4(N504)" place="" credit="3" popular="33" target="" notice="" lectureId="1033581" lectureRate="3.17" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989866" code="HALR1032-16" name="사고와표현" professor="전영주" type="교필" grade="1" time="수6(N504) 금3,4(N504)" place="" credit="3" popular="33" target="" notice="사고와표현" lectureId="1033581" lectureRate="3.17" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N504"/>
     <timeplace day="4" start="132" end="156" place="N504"/>
   </subject>
-  <subject id="4989867" code="HALR1032-17" name="사고와표현" professor="강미정" type="교필" grade="1" time="수6(N412) 금3,4(N412)" place="" credit="3" popular="26" target="" notice="" lectureId="2251686" lectureRate="4.75" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989867" code="HALR1032-17" name="사고와표현" professor="강미정" type="교필" grade="1" time="수6(N412) 금3,4(N412)" place="" credit="3" popular="26" target="" notice="사고와표현" lectureId="2251686" lectureRate="4.75" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N412"/>
     <timeplace day="4" start="132" end="156" place="N412"/>
   </subject>
-  <subject id="4989868" code="HALR1032-18" name="사고와표현" professor="미정" type="교필" grade="1" time="수7(N501) 금5,6(N501)" place="" credit="3" popular="25" target="" notice="" lectureId="2317398" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989868" code="HALR1032-18" name="사고와표현" professor="미정" type="교필" grade="1" time="수7(N501) 금5,6(N501)" place="" credit="3" popular="25" target="" notice="사고와표현" lectureId="2317398" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N501"/>
     <timeplace day="4" start="156" end="180" place="N501"/>
   </subject>
-  <subject id="4989869" code="HALR1032-19" name="사고와표현" professor="송인성" type="교필" grade="1" time="수7(R101) 금5,6(R101)" place="" credit="3" popular="26" target="" notice="" lectureId="1034979" lectureRate="4.07" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989869" code="HALR1032-19" name="사고와표현" professor="송인성" type="교필" grade="1" time="수7(R101) 금5,6(R101)" place="" credit="3" popular="26" target="" notice="사고와표현" lectureId="1034979" lectureRate="4.07" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="R101"/>
     <timeplace day="4" start="156" end="180" place="R101"/>
   </subject>
-  <subject id="4989870" code="HALR1032-2" name="사고와표현" professor="미정" type="교필" grade="1" time="월3,4(N501) 수3(N501)" place="" credit="3" popular="29" target="" notice="" lectureId="2317398" lectureRate="3.75" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989870" code="HALR1032-2" name="사고와표현" professor="미정" type="교필" grade="1" time="월3,4(N501) 수3(N501)" place="" credit="3" popular="29" target="" notice="사고와표현" lectureId="2317398" lectureRate="3.75" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N501"/>
     <timeplace day="2" start="132" end="144" place="N501"/>
   </subject>
-  <subject id="4989871" code="HALR1032-20" name="사고와표현" professor="방영심" type="교필" grade="1" time="수7(N407) 금5,6(N407)" place="" credit="3" popular="17" target="" notice="" lectureId="76504" lectureRate="3.87" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989871" code="HALR1032-20" name="사고와표현" professor="방영심" type="교필" grade="1" time="수7(N407) 금5,6(N407)" place="" credit="3" popular="17" target="" notice="사고와표현" lectureId="76504" lectureRate="3.87" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N407"/>
     <timeplace day="4" start="156" end="180" place="N407"/>
   </subject>
-  <subject id="4989872" code="HALR1032-21" name="사고와표현" professor="박선애" type="교필" grade="1" time="수7(N504) 금5,6(N504)" place="" credit="3" popular="33" target="" notice="" lectureId="2251687" lectureRate="5" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989872" code="HALR1032-21" name="사고와표현" professor="박선애" type="교필" grade="1" time="수7(N504) 금5,6(N504)" place="" credit="3" popular="33" target="" notice="사고와표현" lectureId="2251687" lectureRate="5" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="180" end="192" place="N504"/>
     <timeplace day="4" start="156" end="180" place="N504"/>
   </subject>
-  <subject id="4989873" code="HALR1032-22" name="사고와표현" professor="박건숙" type="교필" grade="1" time="월3,4(N412) 수3(N412)" place="" credit="3" popular="1" target="" notice="" lectureId="118705" lectureRate="4.37" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989873" code="HALR1032-22" name="사고와표현" professor="박건숙" type="교필" grade="1" time="월3,4(N412) 수3(N412)" place="" credit="3" popular="1" target="" notice="사고와표현" lectureId="118705" lectureRate="4.37" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N412"/>
     <timeplace day="2" start="132" end="144" place="N412"/>
   </subject>
-  <subject id="4989874" code="HALR1032-23" name="사고와표현" professor="박건숙" type="교필" grade="1" time="월5,6(N412) 수4(N412)" place="" credit="3" popular="2" target="" notice="" lectureId="118705" lectureRate="4.32" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989874" code="HALR1032-23" name="사고와표현" professor="박건숙" type="교필" grade="1" time="월5,6(N412) 수4(N412)" place="" credit="3" popular="2" target="" notice="사고와표현" lectureId="118705" lectureRate="4.32" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="N412"/>
     <timeplace day="2" start="144" end="156" place="N412"/>
   </subject>
-  <subject id="4989875" code="HALR1032-24" name="사고와표현" professor="양태영" type="교필" grade="1" time="수6(N404) 금3,4(N404)" place="" credit="3" popular="5" target="" notice="" lectureId="77231" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989875" code="HALR1032-24" name="사고와표현" professor="양태영" type="교필" grade="1" time="수6(N404) 금3,4(N404)" place="" credit="3" popular="5" target="" notice="사고와표현" lectureId="77231" lectureRate="0" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="2" start="168" end="180" place="N404"/>
     <timeplace day="4" start="132" end="156" place="N404"/>
   </subject>
-  <subject id="4989876" code="HALR1032-25" name="사고와표현" professor="최은영" type="교필" grade="1" time="월10,11,12(N404)" place="" credit="3" popular="37" target="" notice="" lectureId="2089662" lectureRate="3.33" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989876" code="HALR1032-25" name="사고와표현" professor="최은영" type="교필" grade="1" time="월10,11,12(N404)" place="" credit="3" popular="37" target="" notice="사고와표현" lectureId="2089662" lectureRate="3.33" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="216" end="252" place="N404"/>
   </subject>
-  <subject id="4989877" code="HALR1032-3" name="사고와표현" professor="방영심" type="교필" grade="1" time="월3,4(N407) 수3(N407)" place="" credit="3" popular="24" target="" notice="" lectureId="76504" lectureRate="3.87" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989877" code="HALR1032-3" name="사고와표현" professor="방영심" type="교필" grade="1" time="월3,4(N407) 수3(N407)" place="" credit="3" popular="24" target="" notice="사고와표현" lectureId="76504" lectureRate="3.87" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N407"/>
     <timeplace day="2" start="132" end="144" place="N407"/>
   </subject>
-  <subject id="4989878" code="HALR1032-4" name="사고와표현" professor="박혜숙" type="교필" grade="1" time="월3,4(N504) 수3(N504)" place="" credit="3" popular="24" target="" notice="" lectureId="481014" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989878" code="HALR1032-4" name="사고와표현" professor="박혜숙" type="교필" grade="1" time="월3,4(N504) 수3(N504)" place="" credit="3" popular="24" target="" notice="사고와표현" lectureId="481014" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="132" end="156" place="N504"/>
     <timeplace day="2" start="132" end="144" place="N504"/>
   </subject>
-  <subject id="4989879" code="HALR1032-5" name="사고와표현" professor="김소은" type="교필" grade="1" time="월5,6(N501) 수4(N501)" place="" credit="3" popular="12" target="" notice="" lectureId="480997" lectureRate="1.78" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989879" code="HALR1032-5" name="사고와표현" professor="김소은" type="교필" grade="1" time="월5,6(N501) 수4(N501)" place="" credit="3" popular="12" target="" notice="사고와표현" lectureId="480997" lectureRate="1.78" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="N501"/>
     <timeplace day="2" start="144" end="156" place="N501"/>
   </subject>
-  <subject id="4989880" code="HALR1032-6" name="사고와표현" professor="송인성" type="교필" grade="1" time="월5,6(R101) 수4(R101)" place="" credit="3" popular="45" target="" notice="" lectureId="1034979" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989880" code="HALR1032-6" name="사고와표현" professor="송인성" type="교필" grade="1" time="월5,6(R101) 수4(R101)" place="" credit="3" popular="45" target="" notice="사고와표현" lectureId="1034979" lectureRate="4.08" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="R101"/>
     <timeplace day="2" start="144" end="156" place="R101"/>
   </subject>
-  <subject id="4989881" code="HALR1032-7" name="사고와표현" professor="방영심" type="교필" grade="1" time="월5,6(N407) 수4(N407)" place="" credit="3" popular="19" target="" notice="" lectureId="76504" lectureRate="3.87" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989881" code="HALR1032-7" name="사고와표현" professor="방영심" type="교필" grade="1" time="월5,6(N407) 수4(N407)" place="" credit="3" popular="19" target="" notice="사고와표현" lectureId="76504" lectureRate="3.87" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="N407"/>
     <timeplace day="2" start="144" end="156" place="N407"/>
   </subject>
-  <subject id="4989882" code="HALR1032-8" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월5,6(N504) 수4(N504)" place="" credit="3" popular="8" target="" notice="" lectureId="481013" lectureRate="3.78" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989882" code="HALR1032-8" name="사고와표현" professor="길태숙" type="교필" grade="1" time="월5,6(N504) 수4(N504)" place="" credit="3" popular="8" target="" notice="사고와표현" lectureId="481013" lectureRate="3.78" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="156" end="180" place="N504"/>
     <timeplace day="2" start="144" end="156" place="N504"/>
   </subject>
-  <subject id="4989883" code="HALR1032-9" name="사고와표현" professor="윤태식" type="교필" grade="1" time="월7,8(N501) 수5(N501)" place="" credit="3" popular="25" target="" notice="" lectureId="481032" lectureRate="4.53" misc1="" misc2="" misc3="" misc4="">
+  <subject id="4989883" code="HALR1032-9" name="사고와표현" professor="윤태식" type="교필" grade="1" time="월7,8(N501) 수5(N501)" place="" credit="3" popular="25" target="" notice="사고와표현" lectureId="481032" lectureRate="4.53" misc1="" misc2="" misc3="" misc4="">
     <timeplace day="0" start="180" end="204" place="N501"/>
     <timeplace day="2" start="156" end="168" place="N501"/>
   </subject>
