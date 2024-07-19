@@ -27,8 +27,8 @@ public class SubjectTypeExtractor {
 
             // 데이터베이스 연결
             try (Connection conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/etparse?serverTimezone=UTC&characterEncoding=UTF-8",
-                    "root", "gksthf0601")) {
+                    "jdbc:mysql://",
+                    "", "")) {
                 for (int i = 0; i < subjects.length(); i++) {
                     JSONObject subject = subjects.getJSONObject(i);
                     String code = subject.getString("code");
